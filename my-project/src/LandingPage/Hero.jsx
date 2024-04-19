@@ -6,44 +6,47 @@ import {
   BouncingMed,
   BouncingL,
 } from "../assets/BouncingBall";
+import "/src/styles/transitions.css";
 
 const Hero = () => {
   return (
     <>
-
-    
       <NavBar />
-     
 
-        <div class="absolute card top-20 left-10 bottom-0 w-20 border-gradient-a">
-          <img src="src/Images/dia.png" alt="bg" />
-        </div>
+      <div class="absolute card top-20 left-10 bottom-0 w-20 border-gradient-a">
+        <img src="src/Images/dia.png" alt="bg" />
+      </div>
 
-        <div class="absolute card top-80 right-20 bottom-0 w-20 border-gradient-a">
-          <img src="src/Images/dia.png" alt="bg" />
-        </div>
+      <div class="absolute card top-80 right-20 bottom-0 w-20 border-gradient-a">
+        <img src="src/Images/dia.png" alt="bg" />
+      </div>
 
       <section class="bg-transparent ">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-              Hi!
-            </h1>
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-              I'm Celine
-            </h1>
-            <div className="max-w-2xl h-auto mb-4 bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text font-raleway">
-              <h1
-                className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl"
-                style={{ lineHeight: "1.14" }}
-              >
-                Web Designer
+            <div className="max-w-2xl mb-4 animate-left">
+              <h1 className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white ">
+                Hi!
               </h1>
+              <h1
+                className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white "
+                style={{ animationDelay: "0.5s" }}
+              >
+                I'm Celine
+              </h1>
+              <div className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text font-raleway">
+                <h1
+                  className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl t"
+                  style={{ lineHeight: "1.14", animationDelay: "1s" }}
+                >
+                  Web Designer
+                </h1>
+              </div>
             </div>
 
-            <section class="bg-transparent relative">
+            <section class="bg-transparent relative animate-left">
               <div class="border-l-3 border-gradient-a relative pb-4 w-2/2"></div>
-              <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 relative z-10">
+              <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
                 Frontend Developer | WordPress Developer
               </p>
             </section>
@@ -114,9 +117,7 @@ const Hero = () => {
         <BouncingSmall />
       </div>
 
-      
-
-      <div >
+      <div>
         <div class="absolute top-20 right-0 bottom-0 w-20 border-gradient-a">
           <img src="src/Images/donut.png" alt="bg" />
         </div>

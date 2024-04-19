@@ -1,11 +1,10 @@
-// YourComponentFile.jsx
+
 import React from "react";
 import "/src/styles/animations.css";
 
 export const BouncingImage = () => {
-  // Generate a random duration between 1s and 2s
-  const duration = Math.floor(Math.random() * 1000) + 1000; // Random duration between 1000ms and 2000ms
 
+  const duration = Math.floor(Math.random() * 1000) + 1000; 
   return (
     <div className="relative">
       <img
@@ -19,8 +18,8 @@ export const BouncingImage = () => {
 };
 
 export const BouncingSmall = () => {
-  // Generate a random delay between 0s and 1s
-  const delay = Math.floor(Math.random() * 1000); // Random delay between 0ms and 1000ms
+
+  const delay = Math.floor(Math.random() * 1000); 
 
   return (
     <div className="relative">
