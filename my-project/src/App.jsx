@@ -12,7 +12,7 @@ function App() {
       <div className="bg-gradient-custom h-screen py-10 font-raleway">
         <Hero />
       </div>
-      <div>
+      <div className="bg-gradient-custom h-screen py-10 font-raleway">
         <MyServices />
       </div>
     </>

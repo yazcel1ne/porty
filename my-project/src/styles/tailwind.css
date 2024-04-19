@@ -23,6 +23,33 @@ section:before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 2px; /* Adjust the thickness as needed */
+  height: 3px; /* Adjust the thickness as needed */
   background-image: linear-gradient(to right, #BB96F6, #7D3DE3); /* Use the bg-gradient-custom colors */
+}
+
+
+.relative-container {
+  position: relative;
+  z-index: 1 ;
+}
+
+.background-image {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+
+  z-index: -1;
+}
+
+.background-image2 {
+  position: absolute;
+  top: 70px;
+  right: 100px;
+z-index: -1;
+}
+
+.gradient-custom {
+
+  position: relative;
+  z-index: 0; /* Set a lower z-index to position the background color at the very back */
 }
