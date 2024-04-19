@@ -1,13 +1,14 @@
 .fade-up {
     opacity: 0;
-    transform: translateY(100px);
-    transition: opacity 0.5s, transform .8s;
+    transform: translateY(150px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
   
   .fade-up.active {
     opacity: 1;
     transform: translateY(0);
   }
+  
   
 
   @keyframes slideInFromLeft {
