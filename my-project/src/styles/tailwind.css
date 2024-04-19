@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.border-gradient-a {
+  border-image: linear-gradient(to bottom, #BB96F6, #7D3DE3) 1;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right,  #BB96F6, #7D3DE3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust the thickness as needed */
+  background-image: linear-gradient(to right, #BB96F6, #7D3DE3); /* Use the bg-gradient-custom colors */
+}
