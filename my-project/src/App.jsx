@@ -7,8 +7,7 @@ import "/src/styles/transitions.css";
 
 import Hero from "./LandingPage/Hero.jsx";
 import MyServices from "./LandingPage/Services/MyServices.jsx";
-import TechUsed from "./LandingPage/TechStack/TechUsed.jsx";
-function App() {
+import Designs from "./LandingPage/Works/Designs.jsx";function App() {
   return (
     <>
       <div className="bg-gradient-custom h-screen py-10 font-raleway">
@@ -18,7 +17,7 @@ function App() {
         <MyServices />
       </div>
       <div className="bg-gradient-custom h-screen py-10 font-raleway">
-        <TechUsed />
+        <Designs />
       </div>
     </>
   );
