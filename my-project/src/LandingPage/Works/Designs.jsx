@@ -32,7 +32,7 @@ const Designs = () => {
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
             <ImageModal src="src/Images/plant.png" alt="Karmine" />
             <div class="py-4">
-              <h2 className="mt-2 text-lg font-bold ">Karmine</h2>
+              <h2 className="mt-2 text-lg font-bold ">Oasis</h2>
               <ViewButton />
             </div>
           </div>
@@ -42,7 +42,7 @@ const Designs = () => {
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
             <ImageModal src="src/Images/juice.png" alt="Karmine" />
             <div class="py-4">
-              <h2 className="mt-2 text-lg font-bold ">Karmine</h2>
+              <h2 className="mt-2 text-lg font-bold ">JuiceLabs</h2>
               <ViewButton />
             </div>
           </div>
@@ -51,7 +51,7 @@ const Designs = () => {
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
             <ImageModal src="src/Images/car.png" alt="Karmine" />
             <div class="py-4">
-              <h2 className="mt-2 text-lg font-bold ">Karmine</h2>
+              <h2 className="mt-2 text-lg font-bold ">Luminaire</h2>
               <ViewButton />
             </div>
           </div>
