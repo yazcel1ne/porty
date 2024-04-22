@@ -3,3 +3,5 @@
 - npx tailwindcss init -p
 
 - npm i react-router-dom
+
+- npm install flowbite
