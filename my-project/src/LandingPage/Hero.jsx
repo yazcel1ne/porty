@@ -13,11 +13,11 @@ const Hero = () => {
     <>
       <NavBar />
 
-      <div class="absolute card top-20 left-10 bottom-0 w-20 border-gradient-a">
+      <div class="dia-right w-40 border-gradient-a">
         <img src="src/Images/dia.png" alt="bg" />
       </div>
 
-      <div class="absolute card top-80 right-20 bottom-0 w-20 border-gradient-a">
+      <div class="dia-left w-40 border-gradient-a">
         <img src="src/Images/dia.png" alt="bg" />
       </div>
 
@@ -37,7 +37,7 @@ const Hero = () => {
               <div className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text font-raleway">
                 <h1
                   className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl t"
-                  style={{ lineHeight: "1.14", animationDelay: "1s" }}
+                  style={{ lineHeight: "1.18", animationDelay: "1s" }}
                 >
                   Web Designer
                 </h1>
@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
 
             <section class="bg-transparent relative animate-left">
-              <div class="border-l-3 border-gradient-a relative pb-4 w-2/2"></div>
+              <div class=" border-gradient-a relative pb-8 w-2/2"></div>
               <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
                 Frontend Developer | WordPress Developer
               </p>

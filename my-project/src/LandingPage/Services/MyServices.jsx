@@ -7,23 +7,21 @@ import FadeUpHeader from "../../assets/FadeUpHeader";
 const MyServices = () => {
   return (
     <>
-      <div className="relative h-screen font-raleway ">
+      <div className="relative h-full font-raleway ">
         <img
           src="src/Images/donutflip.png"
           alt="bg"
           class="absolute top-0 left-0"
         />
-        <div class="pt-24 pb-12">
-        <FadeUpHeader />
+        <div>
+          <FadeUpHeader />
         </div>
 
         <div class="relative-container">
           <img src="src/Images/dia.png" alt="bg" class="background-image" />
 
-          <div class="max-w-screen-xl px-4 mx-auto grid gap-5 md:grid-cols-3">
-            {/* ______________________________ */}
-
-            <div class="bg-purpbg flex-col text-white border-gradient mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105">
+          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
+            <div className="bg-purpbg flex-col text-white border-gradient mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="42"
@@ -210,14 +208,14 @@ const MyServices = () => {
           <img src="src/Images/dia.png" alt="bg" class="background-image2" />
         </div>
 
-        <div className="absolute top-4/5 left-1/3 transform -translate-x-1/2 -translate-y-4/4">
+        <div className="absolute top-4/5 left-1/3 transform -translate-x-1/2 -translate-y-4/4 pt-40">
           {" "}
-          <BouncingSmall />
+          <BouncingImage />
         </div>
 
         <div className="absolute top-1/4 left-3/4 transform -translate-x-4/2 -translate-y-1/5">
           {" "}
-          <BouncingImage />
+          <BouncingSmall />
         </div>
       </div>
     </>

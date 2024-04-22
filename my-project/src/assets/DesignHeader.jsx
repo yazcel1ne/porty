@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useState } from "react";
 import "/src/styles/transitions.css";
 
 const DesignHeader = () => {
-  const [isVisible, setIsVisible] = useState(false);
   const fadeRef = useRef(null);
 
   useEffect(() => {
@@ -13,7 +12,9 @@ const DesignHeader = () => {
     };
 
     const observer = new IntersectionObserver(([entry]) => {
-      setIsVisible(entry.isIntersecting);
+      if (entry.isIntersecting) {
+        fadeRef.current.classList.add("active");
+      }
     }, options);
 
     if (fadeRef.current) {
@@ -28,10 +29,10 @@ const DesignHeader = () => {
   }, []);
 
   return (
-    <div ref={fadeRef} className={`fade-up ${isVisible ? "active" : ""}`}>
+    <div ref={fadeRef} className="fade-up">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 flex justify-end items-end">
         <div className="max-w-3xl text-right">
-          <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-4xl dark:text-white pr-4 border-r-4 border-gradient-a">
+          <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white pr-4 border-r-2 border-gradient-a">
             Design <span className="gradient-text ml-2">Portfolio</span>
           </h1>
           <p className="text-white">

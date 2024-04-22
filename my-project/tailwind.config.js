@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: theme => ({
         'gradient-custom': 'linear-gradient(90deg, #2B1848 0%, #191919 52%, #141414 100%)',
+ 
       }),
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],

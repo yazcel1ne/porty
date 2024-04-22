@@ -1,7 +1,7 @@
 .fade-up {
     opacity: 0;
     transform: translateY(150px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity .75s ease, transform 0.75s ease;
   }
   
   .fade-up.active {
@@ -23,6 +23,6 @@
   }
   
   .animate-left {
-    animation: slideInFromLeft 0.5s ease forwards;
+    animation: slideInFromLeft 0.75s ease forwards;
   }
   

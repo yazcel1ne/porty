@@ -14,14 +14,11 @@
   background-clip: text;
   color: transparent;
 }
-
 .border-gradient {
-  border: 2px solid;
+  border: 1px solid;
   border-image: linear-gradient(to right, #BB96F6, #7D3DE3);
   border-image-slice: 1;
-  padding: 20px; /* Add padding to ensure the content doesn't touch the border */
 }
-
 
 
 
@@ -43,18 +40,36 @@ section:before {
 
 .background-image {
   position: absolute;
-  top: 0px;
+  top: -200px;
   left: 100px;
-
   z-index: -1;
+  opacity: 0.5;
 }
+
 
 .background-image2 {
   position: absolute;
-  top: 200px;
+  top: 450px;
   right: 100px;
- 
+  opacity: 0.5;
 z-index: -1;
+}
+
+
+
+.dia-right{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  opacity: 0.5;
+}
+
+
+.dia-left{
+  position: absolute;
+  top: 600px;
+  right: 100px;
+  opacity: 0.5;
 }
 
 .gradient-custom {
@@ -64,14 +79,7 @@ z-index: -1;
 }
 
 
-.fade-up-active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+.modal-open {
+  overflow: hidden;
 }
-
-/* Initial state */
-.fade-up {
-  opacity: 0;
-  transform: translateY(20px); /* Adjust as needed */
-}
+  
