@@ -22,6 +22,7 @@ function MainLanding() {
       <div className="bg-gradient-custom h-full py-24 font-raleway">
         <TechUsed />
       </div>
+     
     </>
   );
 }

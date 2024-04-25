@@ -8,11 +8,11 @@ import ImageModal from "./DesignComps.jsx/ImageModel";
 const Designs = () => {
   return (
     <div class="relative">
-      <img
+      {/* <img
         src="src/Images/donut.png"
         alt="bg"
         class="absolute top-40 right-0"
-      />
+      /> */}
       <div>
         <DesignHeader />
       </div>
@@ -61,9 +61,9 @@ const Designs = () => {
         </div>
 
         <img
-          src="src/Images/donutflip.png"
+          src="src/Images/donut.png"
           alt="bg"
-          class="absolute top-50 left-0"
+          class="absolute top-50 right-0"
         />
         <div className=" absolute top-400 right-40">
           {" "}

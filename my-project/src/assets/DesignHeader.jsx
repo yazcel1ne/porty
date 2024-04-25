@@ -35,10 +35,10 @@ const DesignHeader = () => {
           <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-white pr-4 border-r-2 border-gradient-a">
             Design <span className="gradient-text ml-2">Portfolio</span>
           </h1>
-          <p className="text-white">
+          {/* <p className="text-white">
             We recognize the uniqueness of each client and opportunity,
             guaranteeing a response to every query within one business day
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
