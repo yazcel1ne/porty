@@ -13,11 +13,11 @@ const Hero = () => {
     <>
       <NavBar />
 
-      <div class="dia-right w-40 border-gradient-a">
+      <div class="dia-right w-20 border-gradient-a">
         <img src="src/Images/dia.png" alt="bg" />
       </div>
 
-      <div class="dia-left w-40 border-gradient-a">
+      <div class="dia-left w-20 border-gradient-a">
         <img src="src/Images/dia.png" alt="bg" />
       </div>
 
@@ -46,10 +46,11 @@ const Hero = () => {
 
             <section class="bg-transparent relative animate-left">
               <div class=" border-gradient-a relative pb-8 w-2/2"></div>
-              <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
+              <p class="max-w-2xl mb-4 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
                 Frontend Developer | WordPress Developer
               </p>
             </section>
+
 
             <div className="flex">
               <button className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4">

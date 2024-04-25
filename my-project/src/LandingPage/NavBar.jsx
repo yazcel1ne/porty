@@ -7,10 +7,7 @@ const NavBar = () => {
     <>
       <nav class="bg-gradient-custom dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="https://flowbite.com/"
-            class="flex items-center space-x-3 rtl:space-x-reverse"
-          >
+          <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
               Logo
             </span>
@@ -65,13 +62,24 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent "
-                >
-                  Services
-                </a>
+                <li>
+                  <a
+                    href="#"
+                    className="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const servicesSection =
+                        document.getElementById("my-services");
+                      if (servicesSection) {
+                        servicesSection.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                  >
+                    Services
+                  </a>
+                </li>
               </li>
+
               <li>
                 <a
                   href="#"

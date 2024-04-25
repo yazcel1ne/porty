@@ -8,7 +8,7 @@ import NavBar from "../NavBar";
 const ComingSoon = () => {
   return (
     <>
-    
+    <NavBar/>
       <div className=" relative h-screen font-raleway ">
         <img
           src="src/Images/donutflip.png"

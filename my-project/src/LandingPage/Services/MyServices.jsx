@@ -18,8 +18,6 @@ const MyServices = () => {
         </div>
 
         <div class="relative-container">
-          <img src="src/Images/dia.png" alt="bg" class="background-image" />
-
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
             <div className="bg-purpbg flex-col text-white border-gradient mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105">
               <svg
