@@ -9,20 +9,21 @@ function MainLanding() {
 
   return (
     <>
+    <div className=" parallax">
       <div className="bg-gradient-custom h-full pt-12 pb-24 font-raleway">
         <Hero />
       </div>
-      <div id="my-services" className="bg-gradient-custom h-full pt-36 pb-24 font-raleway">
+      <div id="my-services" className="h-full pt-36 pb-24 font-raleway">
         <MyServices />
       </div>
 
       <div className="bg-gradient-custom h-full py-24 font-raleway">
         <Designs />
       </div>
-      <div className="bg-gradient-custom h-full py-24 font-raleway">
-        <TechUsed />
+      <div >
+        <TechUsed className="h-full pt-36 pb-24 font-raleway"/>
       </div>
-     
+     </div>
     </>
   );
 }

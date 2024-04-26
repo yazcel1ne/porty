@@ -8,11 +8,11 @@ const MyServices = () => {
   return (
     <>
       <div className="relative h-full font-raleway ">
-        <img
-          src="src/Images/donutflip.png"
+        {/* <img
+          src="/Images/donutflip.png"
           alt="bg"
           class="absolute top-0 left-0"
-        />
+        /> */}
         <div>
           <FadeUpHeader />
         </div>
@@ -203,7 +203,7 @@ const MyServices = () => {
             </div>
           </div>
 
-          <img src="src/Images/dia.png" alt="bg" class="background-image2" />
+          {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
         </div>
 
         <div className="absolute top-4/5 left-1/3 transform -translate-x-1/2 -translate-y-4/4 pt-40">

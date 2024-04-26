@@ -60,11 +60,11 @@ const Designs = () => {
           <ViewMore />
         </div>
 
-        <img
+        {/* <img
           src="/Images/donut.png"
           alt="bg"
           class="absolute top-50 right-0"
-        />
+        /> */}
         {/* <div className=" absolute top-400 right-40">
           {" "}
           <BouncingSmall />

@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.parallax {
+  background-image: url('/Images/bgrad4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+} 
 
 
 .border-gradient-a {
   border-image: linear-gradient(to bottom, #BB96F6, #7D3DE3) 1;
+}
+
+.border-gradient-b {
+  border-image: linear-gradient(to bottom, #7D3DE3, #7D3DE3) 1;
 }
 
 .gradient-text {
