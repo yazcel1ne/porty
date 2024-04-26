@@ -9,59 +9,153 @@ const TechUsed = () => {
       </div>
 
       <div class="relative-container">
-        <div class="max-w-screen-xl mx-auto grid gap-4 md:grid-cols-2">
-{/* 
-        <div className="max-w-screen-xl px-4  mx-auto lg:gap-8 xl:gap-0 lg:py-4 flex  ">
-        <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
-          <span className="gradient-text ml-2">Design</span>
-        </h1>
-      </div> */}
+        <div className="max-w-screen-xl  mx-auto lg:gap-8 xl:gap-8 flex  grid gap-8 md:grid-cols-2">
+          <div>
+            <img
+              src="/Images/TechLogos/Palette.png"
+              alt="Palette"
+              class="mr-2 w-8 h-auto inline-block pb-4"
+            />
+            <h1 class="mb-8 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
+              <span class="gradient-text">Design</span>
+            </h1>
+          </div>
 
+          <div>
+          <img
+              src="/Images/TechLogos/Keyboard.png"
+              alt="Palette"
+              class="mr-2 w-8 h-auto inline-block pb-4"
+            />
+            <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
+              <span className="gradient-text ">Development</span>
+            </h1>
+          </div>
+        </div>
 
-          <div class="max-w-screen-xl  px-4 mx-auto grid grid-cols-4 gap-4 bg-purpbg border-2 border-gradient-a">
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Figma
+        <div class="max-w-screen-xl mx-auto grid gap-8 md:grid-cols-2">
+          <div class="max-w-screen-xl  grid grid-cols-4 py-16 gap-4 bg-purpbg border-2 border-gradient-a">
+            <div className="text-center pb-16">
+              <img
+                src="/Images/TechLogos/figma.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Figma</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              WordPress
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/wordpress.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">WordPress</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Oxygen Builder
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/oxygen.png"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Oxygen</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Elementor
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/elementor.png"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Elementor</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Avada
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/avada.png"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Avada</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Photoshop{" "}
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/ps.png"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Photoshop</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Canva
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/canva.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Canva</p>
             </div>
           </div>
-          <div class="max-w-screen-xl  px-4 mx-auto grid grid-cols-4 gap-4 bg-purpbg border-2 border-gradient-a">
-            <div class=" h-32 flex items-center justify-center text-white">
-              HTML
+          <div class="max-w-screen-xl  py-16 grid grid-cols-4 gap-4 bg-purpbg border-2 border-gradient-a">
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/html5.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">HTML</p>
             </div>
-            <div class=" h-32 w-32 flex items-center justify-center text-white">
-              CSS
+
+            <div className="text-center pb-16">
+              <img
+                src="/Images/TechLogos/css3.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">CSS</p>
             </div>
-            <div class="h-32  w-32 flex items-center justify-center text-white">
-              Javascript
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/js.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Javascript</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              React
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/reactjs.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">React</p>
             </div>
-            <div class="h-32  w-32 flex items-center justify-center text-white">
-              Bootstrap
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/bootstrap4.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Booststrap</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Tailwind CSS{" "}
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/tailwindcss.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Tailwind CSS</p>
             </div>
-            <div class=" h-32  w-32 flex items-center justify-center text-white">
-              Github
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/github.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Github</p>
             </div>
           </div>
         </div>

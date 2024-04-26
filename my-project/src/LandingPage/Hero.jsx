@@ -13,13 +13,13 @@ const Hero = () => {
     <>
       <NavBar />
 
-      <div class="dia-right w-20 border-gradient-a">
+      {/* <div class="dia-right w-20 border-gradient-a">
         <img src="src/Images/dia.png" alt="bg" />
-      </div>
+      </div> */}
 
-      <div class="dia-left w-20 border-gradient-a">
+      {/* <div class="dia-left w-20 border-gradient-a">
         <img src="src/Images/dia.png" alt="bg" />
-      </div>
+      </div> */}
 
       <section class="bg-transparent ">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
@@ -90,8 +90,9 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="src/Images/bg2.png" alt="bg" />
+          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex"
+          >
+            <img src="/Images/bg2.png" alt="bg" />
           </div>
         </div>
       </section>
@@ -115,11 +116,11 @@ const Hero = () => {
         <BouncingSmall />
       </div>
 
-      <div>
-        <div class="absolute top-20 right-0 bottom-0 w-20 border-gradient-a">
+      {/* <div>
+        <div class="absolute top-20 right-0 bottom-0 w-20 border-gradient-a" >
           <img src="src/Images/donut.png" alt="bg" />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

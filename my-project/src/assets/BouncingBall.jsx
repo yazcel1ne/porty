@@ -8,7 +8,7 @@ export const BouncingImage = () => {
   return (
     <div className="relative">
       <img
-        src="src/Images/Ellipse.png"
+        src="/Images/Ellipse.png"
         alt="Bouncing Image"
         style={{ animationDuration: `${duration}ms` }}
         className="animate-bounce"
@@ -24,7 +24,7 @@ export const BouncingSmall = () => {
   return (
     <div className="relative">
       <img
-        src="src/Images/Ellipsesmall.png"
+        src="/Images/Ellipsesmall.png"
         alt="Bouncing Image"
         style={{ animationDelay: `-${delay}ms` }}
         className="animate-bounce"
@@ -37,7 +37,7 @@ export const BouncingMed = () => {
   return (
     <div className="relative">
       <img
-        src="src/Images/Ellipsemedium.png"
+        src="/Images/Ellipsemedium.png"
         alt="Bouncing Image"
         className="animate-bounce"
       />
@@ -49,7 +49,7 @@ export const BouncingL = () => {
   return (
     <div className="relative">
       <img
-        src="src/Images/Ellipselarge.png"
+        src="/Images/Ellipselarge.png"
         alt="Bouncing Image"
         className="animate-bounce"
       />
