@@ -10,10 +10,10 @@ function MainLanding() {
   return (
     <>
     <div className=" parallax">
-      <div className="bg-gradient-custom h-full pt-12 pb-24 font-raleway">
+      <div className="bg-gradient-custom h-screen pt-12 pb-24 font-raleway">
         <Hero />
       </div>
-      <div id="my-services" className="h-full pt-36 pb-24 font-raleway">
+      <div id="my-services" className="h-screen pt-36 pb-24 font-raleway">
         <MyServices />
       </div>
 
@@ -21,7 +21,7 @@ function MainLanding() {
         <Designs />
       </div>
       <div >
-        <TechUsed className="h-full pt-36 pb-24 font-raleway"/>
+        <TechUsed className="h-screen pt-36 pb-24 font-raleway"/>
       </div>
      </div>
     </>

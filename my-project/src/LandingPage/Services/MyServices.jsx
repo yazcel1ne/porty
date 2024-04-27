@@ -69,7 +69,7 @@ const MyServices = () => {
 
               <div class="font-raleway p-8 flex flex-col flex-grow">
                 <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl mb-6">
-                  Web & Mobile Development
+                  Web & Mobile Design
                 </h1>
                 <p class="mb-0">
                   I design intuitive interfaces that enhance user engagement and

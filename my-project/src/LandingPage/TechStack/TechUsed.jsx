@@ -146,7 +146,7 @@ const TechUsed = () => {
                 alt="Logo"
                 className="mx-auto w-12 h-auto"
               />
-              <p className="mt-2 text-white">Booststrap</p>
+              <p className="mt-2 text-white">Bootstrap</p>
             </div>
 
             <div className="text-center">
