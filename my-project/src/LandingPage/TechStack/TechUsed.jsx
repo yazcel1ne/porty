@@ -4,11 +4,11 @@ import TechHeader from "../../assets/TechHeader";
 const TechUsed = () => {
   return (
     <>
-      <div>
+      <div className="relative h-full font-raleway ">
         <TechHeader />
       </div>
 
-      <div class="relative-container">
+      <div className="relative h-full font-raleway ">
         <div className="max-w-screen-xl  mx-auto lg:gap-8 xl:gap-8 flex  grid gap-8 md:grid-cols-2">
           <div>
             <img
@@ -129,6 +129,15 @@ const TechUsed = () => {
                 className="mx-auto w-12 h-auto"
               />
               <p className="mt-2 text-white">React</p>
+            </div>
+
+            <div className="text-center">
+              <img
+                src="/Images/TechLogos/materialui.svg"
+                alt="Logo"
+                className="mx-auto w-12 h-auto"
+              />
+              <p className="mt-2 text-white">Material UI</p>
             </div>
 
             <div className="text-center">
