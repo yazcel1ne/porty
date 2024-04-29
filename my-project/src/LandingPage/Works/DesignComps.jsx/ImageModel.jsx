@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ImageModal = ({ src, alt }) => {
+const ImageModal = ({ src, alt, modalText }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = () => {
@@ -29,10 +29,12 @@ const ImageModal = ({ src, alt }) => {
 
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
           onClick={handleClose}
         >
-          <div className="max-w-full max-h-full overflow-auto">
+          <div className="max-w-full max-h-full overflow-auto text-center pt-24">
+            <p className="text-white mb-4">{modalText}</p>
             <img src={src} alt={alt} className="max-w-full max-h-full" />
             <button
               className="absolute top-0 right-0 p-4 text-white"
@@ -48,4 +50,3 @@ const ImageModal = ({ src, alt }) => {
 };
 
 export default ImageModal;
-  

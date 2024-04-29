@@ -20,7 +20,7 @@ const Designs = () => {
       <div class="relative-container">
         <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/karmine.png" alt="Karmine" />
+            <ImageModal src="/Images/DesignImages/karmine2.png" alt="Karmine" />
 
             <div class="py-4">
               <h2 className=" text-lg font-bold ">Karmine</h2>
@@ -30,7 +30,7 @@ const Designs = () => {
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/plant.png" alt="Karmine" />
+            <ImageModal src="/Images/DesignImages/plant2.png" alt="Oasis" />
             <div class="py-4">
               <h2 className="mt-2 text-lg font-bold ">Oasis</h2>
               <ViewButton />
@@ -40,7 +40,7 @@ const Designs = () => {
 
         <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/juice.png" alt="Karmine" />
+            <ImageModal src="/Images/DesignImages/juice2.png" alt="Karmine" />
             <div class="py-4">
               <h2 className="mt-2 text-lg font-bold ">JuiceLabs</h2>
               <ViewButton />
@@ -49,7 +49,7 @@ const Designs = () => {
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-4 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/car.png" alt="Karmine" />
+            <ImageModal src="/Images/DesignImages/car2.png" alt="Karmine" />
             <div class="py-4">
               <h2 className="mt-2 text-lg font-bold ">Luminaire</h2>
               <ViewButton />
