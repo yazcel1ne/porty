@@ -4,20 +4,20 @@ import TechHeader from "../../assets/TechHeader";
 const TechUsed = () => {
   return (
     <>
-      <div className="relative h-full font-raleway ">
+      <div className=" font-raleway ">
         <TechHeader />
       </div>
 
-      <div className="relative h-full font-raleway ">
-        <div className="max-w-screen-xl  mx-auto lg:gap-8 xl:gap-8 flex  grid gap-8 md:grid-cols-2">
+      <div >
+        <div className="max-w-screen-xl mx-auto lg:gap-8 xl:gap-8 flex  grid gap-8 md:grid-cols-2">
           <div>
             <img
               src="/Images/TechLogos/Palette.png"
               alt="Palette"
               class="mr-2 w-8 h-auto inline-block pb-4"
             />
-            <h1 class="mb-8 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
-              <span class="gradient-text">Design</span>
+            <h1 class=" text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
+              <span >Design</span>
             </h1>
           </div>
 
@@ -28,13 +28,13 @@ const TechUsed = () => {
               class="mr-2 w-8 h-auto inline-block pb-4"
             />
             <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
-              <span className="gradient-text ">Development</span>
+              <span >Development</span>
             </h1>
           </div>
         </div>
 
         <div class="max-w-screen-xl mx-auto grid gap-8 md:grid-cols-2">
-          <div class="max-w-screen-xl  grid grid-cols-4 py-16 gap-4 bg-purpbg border-2 border-gradient-a">
+          <div class="max-w-screen-xl  grid grid-cols-4 py-16 gap-4 bg-purpbg rounded-[24px]">
             <div className="text-center pb-16">
               <img
                 src="/Images/TechLogos/figma.svg"
@@ -94,7 +94,7 @@ const TechUsed = () => {
               <p className="mt-2 text-white">Canva</p>
             </div>
           </div>
-          <div class="max-w-screen-xl  py-16 grid grid-cols-4 gap-4 bg-purpbg border-2 border-gradient-a">
+          <div class="max-w-screen-xl  py-16 grid grid-cols-4 gap-4 bg-purpbg rounded-[24px]">
             <div className="text-center">
               <img
                 src="/Images/TechLogos/html5.svg"

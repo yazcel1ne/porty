@@ -19,7 +19,8 @@ const MyServices = () => {
 
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
-            <div className="bg-purpbg flex-col text-white border-gradient mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105">
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="42"
@@ -66,7 +67,6 @@ const MyServices = () => {
                   </clipPath>
                 </defs>
               </svg>
-
               <div class="font-raleway p-8 flex flex-col flex-grow">
                 <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl mb-6">
                   Web & Mobile Design
@@ -83,7 +83,8 @@ const MyServices = () => {
             </div>
             {/* ---------------------- */}
 
-            <div class="bg-purpbg flex-col text-white border-gradient mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105">
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -110,7 +111,6 @@ const MyServices = () => {
                   </linearGradient>
                 </defs>
               </svg>
-
               <div class="font-raleway p-8 flex flex-col flex-grow">
                 <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl mb-6">
                   WordPress Development
@@ -126,7 +126,8 @@ const MyServices = () => {
               </div>
             </div>
 
-            <div class="bg-purpbg flex-col text-white border-gradient mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105">
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -186,7 +187,6 @@ const MyServices = () => {
                   </linearGradient>
                 </defs>
               </svg>
-
               <div class="font-raleway p-8 flex flex-col flex-grow">
                 <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl mb-6">
                   Graphic & Logo Design
@@ -211,8 +211,8 @@ const MyServices = () => {
           <BouncingImage />
         </div>
 
-        <div className="absolute top-1/4 left-3/4 transform -translate-x-4/2 -translate-y-1/5">
-          {" "}
+        <div className="absolute top-1/4 left-3/4 transform -translate-x-4/2 -translate-y-1/4">
+        
           <BouncingSmall />
         </div>
       </div>

@@ -24,7 +24,7 @@ const Hero = () => {
       <section class="bg-transparent ">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <div className="max-w-2xl mb-4 animate-left border-l-4 border-gradient-a  pl-3">
+            <div className="max-w-2xl mb-4 animate-left border-l-4 border-gradient-a  pl-10">
               <h1 className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white ">
                 Hi!
               </h1>
@@ -42,7 +42,7 @@ const Hero = () => {
                   Web Designer
                 </h1>
                 <p class="max-w-2xl mb-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
-                Frontend Developer | WordPress Developer
+                Frontend Developer   |    WordPress Developer
               </p>
               </div>
             </div>
