@@ -2,7 +2,7 @@ import React from "react";
 import ContactButton from "../../Components/ContactButton";
 
 
-const CTA = () => {
+const TechUsed = () => {
   return (
     <div>
       <div class="max-w-screen-xl px-4 my-10  mx-auto grid gap-8 md:grid-cols-1">
@@ -25,4 +25,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default TechUsed;

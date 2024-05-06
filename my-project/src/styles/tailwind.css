@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.parallax {
-  background-image: url('/Images/bgbg4.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
-} 
+  .parallax {
+    background-image: url('/Images/bgbg4.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+  } 
 
 
 
