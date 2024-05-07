@@ -2,40 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-  .parallax {
-    background-image: url('/Images/bgbg4.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-  } 
-
-
-
+.parallax {
+  background-image: url("/Images/ooorganize.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
 
 .border-gradient-a {
-
-  border-image: linear-gradient(to bottom, #BB96F6, #7D3DE3) 1;
-
+  border-image: linear-gradient(to bottom, #bb96f6, #7d3de3) 1;
 }
 
 .border-gradient-b {
-  border-image: linear-gradient(to bottom, #7D3DE3, #BB96F6) 1;
+  border-image: linear-gradient(to bottom, #7d3de3, #bb96f6) 1;
 }
 
 .gradient-text {
-  background-image: linear-gradient(to right,  #BB96F6, #7D3DE3);
+  background-image: linear-gradient(to right, #bb96f6, #7d3de3);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .border-gradient {
   border: 1px solid;
-  border-image: linear-gradient(to right, #BB96F6, #7D3DE3);
+  border-image: linear-gradient(to right, #bb96f6, #7d3de3);
   border-image-slice: 1;
 }
-
-
 
 section:before {
   content: "";
@@ -44,43 +37,41 @@ section:before {
   left: 0;
   width: 100%;
   height: 3px; /* Adjust the thickness as needed */
-  background-image: linear-gradient(to right, #BB96F6, #7D3DE3); /* Use the bg-gradient-custom colors */
+  background-image: linear-gradient(
+    to right,
+    #bb96f6,
+    #7d3de3
+  ); /* Use the bg-gradient-custom colors */
 }
-
 
 .relative-container {
   position: relative;
-  z-index: 1 ;
+  z-index: 1;
 }
 
 .background-image {
   position: absolute;
-  top: -200px;
-  left: 100px;
-  z-index: -1;
-  opacity: 0.3;
-}
 
+  z-index: 20;
+  opacity: 20;
+}
 
 .background-image2 {
   position: absolute;
   top: 450px;
   right: 100px;
   opacity: 0.3;
-z-index: -1;
+  z-index: 30;
 }
 
-
-
-.dia-right{
+.dia-right {
   position: absolute;
   top: 200px;
   left: 50px;
   opacity: 0.5;
 }
 
-
-.dia-left{
+.dia-left {
   position: absolute;
   top: 600px;
   right: 100px;
@@ -88,13 +79,14 @@ z-index: -1;
 }
 
 .gradient-custom {
-
   position: relative;
   z-index: 0; /* Set a lower z-index to position the background color at the very back */
 }
 
-
 .modal-open {
   overflow: hidden;
 }
-  
+
+.zindexdiv {
+  z-index: 20;
+}

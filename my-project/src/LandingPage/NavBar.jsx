@@ -13,7 +13,10 @@ const NavBar = () => {
             </span>
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <ContactButton />
+          <button className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4">
+                DOWNLOAD CV
+                
+              </button>
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -78,15 +81,6 @@ const NavBar = () => {
                     Services
                   </a>
                 </li>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent "
-                >
-                  Contact
-                </a>
               </li>
             </ul>
           </div>

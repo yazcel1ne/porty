@@ -7,6 +7,8 @@ import {
   BouncingL,
 } from "../assets/BouncingBall";
 import "/src/styles/transitions.css";
+import WavyBg from "./Pages/WavyBg";
+import GradientText from "../assets/GradientText";
 
 const Hero = () => {
   return (
@@ -22,34 +24,31 @@ const Hero = () => {
       </div> */}
 
       <section class="bg-transparent ">
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
+        <div class="zindexdiv grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
           <div class="mr-auto place-self-center lg:col-span-7">
             <div className="max-w-2xl mb-4 animate-left border-l-4 border-gradient-a  pl-10">
-              <h1 className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white ">
-                Hi!
-              </h1>
+              <span class="text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+                <h1 className="text-4xl mb-4 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white ">
+                  Hi!
+                </h1>
+              </span>
               <h1
-                className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white "
+                className="text-4xl font-extrabold mb-4 tracking-tight leading-none md:text-5xl xl:text-6xl text-white "
                 style={{ animationDelay: "0.5s" }}
               >
                 I'm Celine
               </h1>
               <div className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text font-raleway">
-                <h1
-                  className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl t"
-                  style={{ lineHeight: "1.18", animationDelay: "1s" }}
-                >
+                <span className="text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
-                </h1>
-                <p class="max-w-2xl mb-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
-                Frontend Developer   |    WordPress Developer
-              </p>
+                </span>
+                <p class="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
+                  Frontend Developer | WordPress Developer
+                </p>
               </div>
             </div>
 
-
-
-            <div className="flex">
+            <div className="flex pl-12">
               <button className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4">
                 DOWNLOAD CV
                 <svg
@@ -90,8 +89,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex"
-          >
+          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <img src="/Images/bg2.png" alt="bg" />
           </div>
         </div>

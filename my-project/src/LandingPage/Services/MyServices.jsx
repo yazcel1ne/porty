@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import LearnMore from "../../Components/LearnMore";
 import { BouncingImage, BouncingSmall } from "../../assets/BouncingBall";
+import ParticleCanvas from "../../assets/ParticleCanvas";
 
 import FadeUpHeader from "../../assets/FadeUpHeader";
 
@@ -212,7 +213,6 @@ const MyServices = () => {
         </div>
 
         <div className="absolute top-1/4 left-3/4 transform -translate-x-4/2 -translate-y-1/4">
-        
           <BouncingSmall />
         </div>
       </div>
