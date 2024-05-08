@@ -7,3 +7,5 @@
 - npm install flowbite
 
 - npm i @react-pdf/renderer
+
+- npm install @formspree/react

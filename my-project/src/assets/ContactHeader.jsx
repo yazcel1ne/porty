@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import "/src/styles/transitions.css";
 import GradientText from "./GradientText";
 
-const TechHeader = () => {
+const ContactHeader = () => {
   const fadeRef = useRef(null);
 
   useEffect(() => {
@@ -31,10 +31,10 @@ const TechHeader = () => {
 
   return (
     <div ref={fadeRef} className="fade-up">
-       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-        <h1 className="inline-flex max-w-3xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-white pl-4 border-l-4 border-gradient-a">Tech
-        <GradientText>Stack</GradientText>
-
+      <div className="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-1">
+        <h1 className="inline-flex max-w-3xl  text-2xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-white pl-4 border-l-4 border-gradient-a">
+          Contact
+          <GradientText>Me</GradientText>
         </h1>
         {/* <p className="text-white">
           We recognize the uniqueness of each client and opportunity,
@@ -45,4 +45,4 @@ const TechHeader = () => {
   );
 };
 
-export default TechHeader;
+export default ContactHeader;

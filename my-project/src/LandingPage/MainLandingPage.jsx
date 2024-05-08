@@ -35,6 +35,9 @@ function MainLanding() {
         >
           <CTA />
         </div>
+        <div className=" h-full pt-12 pb-12 font-raleway">
+          <ContactUs />
+        </div>
         <div
           id=" my-services"
           className="bg-gradient-custom h-full pt-12 pb-12 font-raleway"
