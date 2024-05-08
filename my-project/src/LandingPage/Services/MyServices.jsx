@@ -2,13 +2,15 @@ import React, { useRef, useEffect } from "react";
 import LearnMore from "../../Components/LearnMore";
 import { BouncingImage, BouncingSmall } from "../../assets/BouncingBall";
 import ParticleCanvas from "../../assets/ParticleCanvas";
+import WavyBg from "../Pages/WavyBg";
 
 import FadeUpHeader from "../../assets/FadeUpHeader";
 
 const MyServices = () => {
   return (
-    <>
-      <div className="relative h-full font-raleway ">
+    <div class="relative">
+      <WavyBg />
+      <div className="relative h-screen font-raleway ">
         {/* <img
           src="/Images/donutflip.png"
           alt="bg"
@@ -20,7 +22,7 @@ const MyServices = () => {
 
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]">
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px] ">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +115,7 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway p-8 flex flex-col flex-grow">
-                <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl mb-6">
+                <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl mb-6 ">
                   WordPress Development
                 </h1>
                 <p class="mb-0">
@@ -127,7 +129,7 @@ const MyServices = () => {
               </div>
             </div>
 
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]">
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px] ">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,17 +208,8 @@ const MyServices = () => {
 
           {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
         </div>
-
-        <div className="absolute top-4/5 left-1/3 transform -translate-x-1/2 -translate-y-4/4 pt-40">
-          {" "}
-          <BouncingImage />
-        </div>
-
-        <div className="absolute top-1/4 left-3/4 transform -translate-x-4/2 -translate-y-1/4">
-          <BouncingSmall />
-        </div>
       </div>
-    </>
+    </div>
   );
 };
 

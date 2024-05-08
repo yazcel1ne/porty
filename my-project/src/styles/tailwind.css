@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .parallax {
-  background-image: url("/Images/ooorganize.svg");
+  background-image: url("/Images/bgpart.svg ");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11,11 +11,17 @@
 }
 
 .border-gradient-a {
+
   border-image: linear-gradient(to bottom, #bb96f6, #7d3de3) 1;
+
 }
 
 .border-gradient-b {
-  border-image: linear-gradient(to bottom, #7d3de3, #bb96f6) 1;
+  
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bb96f6;
+  
 }
 
 .gradient-text {

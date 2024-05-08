@@ -3,6 +3,11 @@ import GradientButton from "../Components/Button";
 import ContactButton from "../Components/ContactButton";
 
 const NavBar = () => {
+  const downloadPdf = () => {
+
+    window.open('https://drive.google.com/file/d/12kAIOGVlefwqpo4bymclJlU8Oz5pRWqQ/view?usp=sharing', '_blank');
+  };
+
   return (
     <>
       <nav class="bg-gradient-custom dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
@@ -13,10 +18,13 @@ const NavBar = () => {
             </span>
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4">
-                DOWNLOAD CV
-                
-              </button>
+            <button
+              onClick={downloadPdf}
+              className="bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px]"
+            >
+              DOWNLOAD CV
+            </button>
+
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -56,14 +64,7 @@ const NavBar = () => {
                   Home
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent "
-                >
-                  About
-                </a>
-              </li>
+
               <li>
                 <li>
                   <a
@@ -74,7 +75,9 @@ const NavBar = () => {
                       const servicesSection =
                         document.getElementById("my-services");
                       if (servicesSection) {
-                        servicesSection.scrollIntoView({ behavior: "smooth" });
+                        servicesSection.scrollIntoView({
+                          behavior: "smooth",
+                        });
                       }
                     }}
                   >

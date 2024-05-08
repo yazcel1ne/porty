@@ -4,10 +4,21 @@ import "/src/styles/animatedBg.css";
 const WavyBg = () => {
   return (
     <div>
-      <div class="box">
-        
-        <div class="wave -one"> </div>
-        <div class="wave -two"></div>
+      
+
+      <div >
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
   );

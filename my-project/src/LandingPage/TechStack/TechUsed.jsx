@@ -1,15 +1,18 @@
 import React from "react";
 import TechHeader from "../../assets/TechHeader";
+import WavyBg from "../Pages/WavyBg";
 
 const TechUsed = () => {
   return (
     <>
-      <div class="zindexdiv">
+      <div className="relative h-screen font-raleway ">
+      <WavyBg />
+
         <div className=" font-raleway ">
           <TechHeader />
         </div>
 
-        <div>
+        <div class="relative-container">
           <div className="max-w-screen-xl mx-auto lg:gap-8 xl:gap-8 flex  grid gap-8 md:grid-cols-2 ">
             <div>
               <img
