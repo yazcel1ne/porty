@@ -104,7 +104,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-{/* 
+
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />
@@ -118,7 +118,7 @@ const Hero = () => {
     <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingImage />
-      </div> */}
+      </div> 
       {/* <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />
