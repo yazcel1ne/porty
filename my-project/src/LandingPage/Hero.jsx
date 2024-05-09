@@ -11,22 +11,29 @@ import WavyBg from "./Pages/WavyBg";
 import GradientText from "../assets/GradientText";
 
 const Hero = () => {
+  const downloadPdf = () => {
+    window.open(
+      "https://drive.google.com/file/d/12kAIOGVlefwqpo4bymclJlU8Oz5pRWqQ/view?usp=sharing",
+      "_blank"
+    );
+  };
+
   return (
     <>
       <NavBar />
 
-      {/* <div class="dia-right w-20 border-gradient-a">
-        <img src="src/Images/dia.png" alt="bg" />
+      {/* <div class="dia-right w-100 border-gradient-a">
+        <img src="/Images/dia.png" alt="bg" />
       </div> */}
 
       {/* <div class="dia-left w-20 border-gradient-a">
-        <img src="src/Images/dia.png" alt="bg" />
+        <img src="/Images/dia.png" alt="bg" />
       </div> */}
 
       <section class="bg-transparent ">
         <div class="zindexdiv grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <div className="max-w-2xl mb-4 animate-left border-l-4 border-gradient-a  pl-10">
+            <div className="max-w-2xl mb-4 animate-left">
               <span class="text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
                 <h1 className="text-4xl mb-4 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white ">
                   Hi!
@@ -42,14 +49,17 @@ const Hero = () => {
                 <span className="text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
-                <p class="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left">
+                <p class="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left ">
                   Frontend Developer | WordPress Developer
                 </p>
               </div>
             </div>
 
-            <div className="flex pl-12">
-              <button className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4">
+            <div className="flex">
+              <button
+                onClick={downloadPdf}
+                className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4"
+              >
                 DOWNLOAD CV
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +100,7 @@ const Hero = () => {
             </div>
           </div>
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/Images/bg2.png" alt="bg" />
+            <img src="/Images/hero21.png" alt="bg" />
           </div>
         </div>
       </section>
@@ -105,14 +115,14 @@ const Hero = () => {
         <BouncingImage />
       </div>
 
-      {/* <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+    <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingImage />
       </div>
-      <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+      {/* <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />
-      </div> */}
+      </div>  */}
 
       {/* <div>
         <div class="absolute top-20 right-0 bottom-0 w-20 border-gradient-a" >

@@ -16,34 +16,34 @@ function MainLanding() {
 
   return (
     <>
-      <div className=" parallax">
-        <div className="bg-gradient-custom h-screen pt-12 pb-24 font-raleway">
+      <div className=" parallax ">
+        <section className="bg-gradient-custom h-screen pt-12 pb-24 font-raleway">
           <Hero />
-        </div>
-        <div id="my-services" className=" h-screen  pb-24 font-raleway">
+        </section>
+        <section id="my-services" className=" h-full  pb-24 font-raleway">
           <MyServices />
-        </div>
-        <div className="bg-gradient-custom h-full pt-12 pb-24  font-raleway">
+        </section>
+        <section className="bg-gradient-custom h-full pt-12 pb-24  font-raleway">
           <Designs />
-        </div>
-        <div id="my-services" className=" h-screen  pb-24 font-raleway">
+        </section>
+        <section id="my-services" className=" pb-24 font-raleway">
           <TechUsed />
-        </div>
-        <div
+        </section>
+        <section
           id=" my-services"
-          className="bg-gradient-custom h-full pt-12 pb-12 font-raleway"
+          className="bg-gradient-custom pt-12 pb-12 font-raleway"
         >
           <CTA />
-        </div>
-        <div className=" h-full pt-12 pb-12 font-raleway">
+        </section>
+        <section className=" h-full pt-12 pb-12 font-raleway">
           <ContactUs />
-        </div>
-        <div
+        </section>
+        <section
           id=" my-services"
           className="bg-gradient-custom h-full pt-12 pb-12 font-raleway"
         >
           <Footer />
-        </div>
+        </section>
       </div>
     </>
   );
