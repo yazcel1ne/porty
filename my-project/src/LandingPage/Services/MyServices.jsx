@@ -70,7 +70,7 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway p-8 flex flex-col flex-grow">
-                <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl mb-6">
+                <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl mb-6">
                   Web & Mobile Design
                 </h1>
                 <p class="mb-0">
@@ -114,7 +114,7 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway p-8 flex flex-col flex-grow">
-              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl mb-6">
+              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl mb-6">
                   WordPress Development
                 </h1>
                 <p class="mb-0">
@@ -190,7 +190,7 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway p-8 flex flex-col flex-grow">
-              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl mb-6">
+              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl mb-6">
                   Graphic & Logo Design
                 </h1>
                 <p class="mb-0">

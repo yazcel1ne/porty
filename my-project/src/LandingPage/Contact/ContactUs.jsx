@@ -20,14 +20,15 @@ const ContactUs = () => {
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
             <div class="">
-              <p className="text-white pb-8 text-2xl ">
-                Contact me to discuss how we can create something amazing
-                together.
+              <div>
+              <p className="text-white pb-3 text-2xl typing-animation">
+              Contact me and let's create something amazing.
               </p>
+              </div>
 
               <div>
                 <div className=" text-white">
-                  <div className="inline-flex pb-8">
+                  <div className="inline-flex pb-8 pt-16">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="42"
