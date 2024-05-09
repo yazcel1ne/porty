@@ -4,8 +4,10 @@ import ContactButton from "../Components/ContactButton";
 
 const NavBar = () => {
   const downloadPdf = () => {
-
-    window.open('https://drive.google.com/file/d/12kAIOGVlefwqpo4bymclJlU8Oz5pRWqQ/view?usp=sharing', '_blank');
+    window.open(
+      "https://drive.google.com/file/d/12kAIOGVlefwqpo4bymclJlU8Oz5pRWqQ/view?usp=sharing",
+      "_blank"
+    );
   };
 
   return (
@@ -13,9 +15,11 @@ const NavBar = () => {
       <nav class="bg-gradient-custom dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
-              Logo
-            </span>
+            <img
+              src="/Images/logo5.png"
+              alt="Logo"
+              class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+            />
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button

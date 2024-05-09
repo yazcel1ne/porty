@@ -49,13 +49,13 @@ const Hero = () => {
                 <span className="text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
-                <p class="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 animate-left ">
+                <p class="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
                   Frontend Developer | WordPress Developer
                 </p>
               </div>
             </div>
 
-            <div className="flex">
+            <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4">
               <button
                 onClick={downloadPdf}
                 className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4"
@@ -104,7 +104,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-
+{/* 
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />
@@ -118,7 +118,7 @@ const Hero = () => {
     <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingImage />
-      </div>
+      </div> */}
       {/* <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />

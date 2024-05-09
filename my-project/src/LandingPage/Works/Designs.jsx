@@ -69,10 +69,7 @@ const Designs = () => {
           {" "}
           <BouncingSmall />
         </div> */}
-        <div className=" absolute pt-0 pl-40">
-          {" "}
-          <BouncingImage />
-        </div>
+    
       </div>
     </div>
   );

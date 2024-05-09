@@ -8,7 +8,7 @@ import GradientText from "../../assets/GradientText";
 
 const ContactUs = () => {
   return (
-    <div className="px-4">
+    <div className="">
       <div class="max-w-screen-xl pb-8  mx-auto grid gap-8 md:grid-cols-2">
         <div class="max-w-screen-xl   grid grid-cols-1 gap-4 rounded-[24px]"></div>
         <div class="max-w-screen-xl   grid grid-cols-1 gap-4 rounded-[24px]">
@@ -21,32 +21,32 @@ const ContactUs = () => {
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
             <div class="">
               <div>
-              <p className="text-white pb-3 text-2xl typing-animation">
-              Contact me and let's create something amazing.
-              </p>
+                <p className="text-white pb-3 text-sm md:text-2xl typing-animation">
+                  Contact me and let's create something amazing.
+                </p>
               </div>
 
               <div>
                 <div className=" text-white">
-                  <div className="inline-flex pb-8 pt-16">
+                  <div className="flex pb-8 pt-16 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="42"
-                      height="42"
-                      viewBox="0 0 42 42"
+                      width="36"
+                      height="28"
+                      viewBox="0 0 36 28"
                       fill="none"
                     >
                       <path
-                        d="M35 7H7C5.075 7 3.5175 8.575 3.5175 10.5L3.5 31.5C3.5 33.425 5.075 35 7 35H35C36.925 35 38.5 33.425 38.5 31.5V10.5C38.5 8.575 36.925 7 35 7ZM35 14L21 22.75L7 14V10.5L21 19.25L35 10.5V14Z"
-                        fill="url(#paint0_linear_7464_1898)"
+                        d="M32 0H4C2.075 0 0.5175 1.575 0.5175 3.5L0.5 24.5C0.5 26.425 2.075 28 4 28H32C33.925 28 35.5 26.425 35.5 24.5V3.5C35.5 1.575 33.925 0 32 0ZM32 7L18 15.75L4 7V3.5L18 12.25L32 3.5V7Z"
+                        fill="url(#paint0_linear_7475_1310)"
                       />
                       <defs>
                         <linearGradient
-                          id="paint0_linear_7464_1898"
-                          x1="21"
-                          y1="7"
-                          x2="21"
-                          y2="35"
+                          id="paint0_linear_7475_1310"
+                          x1="18"
+                          y1="0"
+                          x2="18"
+                          y2="28"
                           gradientUnits="userSpaceOnUse"
                         >
                           <stop stop-color="#BB96F6" />
@@ -54,7 +54,7 @@ const ContactUs = () => {
                         </linearGradient>
                       </defs>
                     </svg>
-                    <p className="text-center pt-2">
+                    <p className="text-center pt-2 pl-4">
                       celinetodesigns@gmail.com
                     </p>
                   </div>
@@ -67,6 +67,7 @@ const ContactUs = () => {
                         height="36"
                         viewBox="0 0 36 36"
                         fill="none"
+                        className="hover:scale-110 transition duration-200 ease-in-out"
                       >
                         <path
                           d="M6.37466 3.33344e-06H29.6253C33.1424 -0.00360244 35.9972 2.91851 36 6.52644V6.5387V29.462C36.0035 33.0692 33.1544 35.9971 29.6373 36H29.6253H6.37466C2.85756 36.0036 0.00351777 33.0815 2.08107e-06 29.4743V29.462V6.53798C-0.00281047 2.93077 2.8456 0.0036091 6.3627 3.33344e-06H6.37466Z"
@@ -103,6 +104,7 @@ const ContactUs = () => {
                         height="37"
                         viewBox="0 0 37 37"
                         fill="none"
+                        className="hover:scale-110 transition duration-200 ease-in-out"
                       >
                         <path
                           fill-rule="evenodd"
@@ -133,6 +135,7 @@ const ContactUs = () => {
                         height="36"
                         viewBox="0 0 36 36"
                         fill="none"
+                        className="hover:scale-110 transition duration-200 ease-in-out"
                       >
                         <path
                           fill-rule="evenodd"
@@ -163,6 +166,7 @@ const ContactUs = () => {
                         height="28"
                         viewBox="0 0 16 28"
                         fill="none"
+                        className="hover:scale-110 transition duration-200 ease-in-out"
                       >
                         <path
                           d="M14.75 5H10.25C9.42155 5 8.75 5.67158 8.75 6.5V11H14.75C14.9206 10.9962 15.0824 11.0756 15.1838 11.2129C15.2852 11.3501 15.3137 11.528 15.26 11.69L14.15 14.99C14.0477 15.2928 13.7647 15.4976 13.445 15.5H8.75V26.75C8.75 27.1642 8.41415 27.5 8 27.5H4.25C3.83579 27.5 3.5 27.1642 3.5 26.75V15.5H1.25C0.83579 15.5 0.5 15.1642 0.5 14.75V11.75C0.5 11.3358 0.83579 11 1.25 11H3.5V6.5C3.5 3.18629 6.18635 0.5 9.5 0.5H14.75C15.1642 0.5 15.5 0.83579 15.5 1.25V4.25C15.5 4.66421 15.1642 5 14.75 5Z"
