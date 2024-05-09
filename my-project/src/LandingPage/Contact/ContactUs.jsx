@@ -9,7 +9,7 @@ import GradientText from "../../assets/GradientText";
 const ContactUs = () => {
   return (
     <div className="px-4">
-      <div class="max-w-screen-xl mx-auto grid gap-8 md:grid-cols-2">
+      <div class="max-w-screen-xl pb-8  mx-auto grid gap-8 md:grid-cols-2">
         <div class="max-w-screen-xl   grid grid-cols-1 gap-4 rounded-[24px]"></div>
         <div class="max-w-screen-xl   grid grid-cols-1 gap-4 rounded-[24px]">
           <ContactHeader />
@@ -18,7 +18,7 @@ const ContactUs = () => {
 
       <div className="relative h-full font-raleway ">
         <div class="relative-container">
-          <div class="max-w-screen-xl mx-auto grid gap-8 md:grid-cols-2">
+          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
             <div class="">
               <p className="text-white pb-8 text-2xl ">
                 Contact me to discuss how we can create something amazing

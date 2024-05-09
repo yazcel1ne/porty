@@ -35,7 +35,7 @@ const FadeUpHeader = () => {
       className="fade-up"
     >
       <div className="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-        <h1 className="inline-flex max-w-3xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-white pl-4 border-l-4 border-gradient-a">Services
+        <h1 className=" max-w-3xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-white pl-4 border-l-4 border-gradient-a">Services
        <GradientText>Offered</GradientText>
         </h1>
         {/* <p className="text-white">

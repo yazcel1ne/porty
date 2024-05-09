@@ -9,10 +9,10 @@ const CTA = () => {
     <div className="relative font-raleway ">
       <div class="relative-container">
         <div class="max-w-screen-xl px-4 my-10  mx-auto grid gap-8 md:grid-cols-1 ">
-          <div class="bg-purpbg p-16 flex flex-col justify-center items-center text-white  md:flex md:items-left md:justify-left rounded-[24px]">
+          <div class="bg-purpbg p-8 flex flex-col justify-center items-center text-white  md:flex md:items-left md:justify-left rounded-[24px]">
             <div class="pb-8">
               <GradientText>
-                {" "}
+               
                 Transform Your Digital Vision into reality
               </GradientText>
             </div>

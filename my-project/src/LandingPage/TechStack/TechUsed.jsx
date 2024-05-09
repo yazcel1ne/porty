@@ -4,16 +4,15 @@ import WavyBg from "../Pages/WavyBg";
 
 const TechUsed = () => {
   return (
-    <div className="px-4">
-      <div className="relative h-screen font-raleway ">
-        <WavyBg />
+    <div className=" relative px-4">
+      <div className="relative font-raleway ">
 
-        <div className=" font-raleway ">
+        <div>
           <TechHeader />
         </div>
 
         <div class="relative-container">
-          <div class="max-w-screen-xl mx-auto grid gap-8 md:grid-cols-2 ">
+          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2 ">
             <div>
               <div>
                 <img
