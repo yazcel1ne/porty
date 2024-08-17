@@ -55,7 +55,7 @@ const ContactUs = () => {
                       </defs>
                     </svg>
                     <p className="text-center pt-2 pl-4">
-                      celinetodesigns@gmail.com
+                      celineterrado@gmail.com
                     </p>
                   </div>
 

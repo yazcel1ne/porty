@@ -13,7 +13,7 @@ import GradientText from "../assets/GradientText";
 const Hero = () => {
   const downloadPdf = () => {
     window.open(
-      "https://drive.google.com/file/d/12kAIOGVlefwqpo4bymclJlU8Oz5pRWqQ/view?usp=sharing",
+      "https://drive.google.com/file/d/1mxeHdjqt5HhNfKIXay-dpw7T8co3eGih/view?usp=sharing",
       "_blank"
     );
   };
@@ -80,23 +80,7 @@ const Hero = () => {
                 </svg>
               </button>
 
-              <button className="inline-flex items-center border-2 border-white hover:border-purple-400 from-white to-white hover:bg-BB96F6 text-white hover:text-white font-raleway font-normal py-2 px-6 rounded-[24px] mr-4">
-                {" "}
-                GET IN TOUCH
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  className="ml-2"
-                >
-                  <path
-                    d="M18.2637 13.44L15.0237 11.82C16.3137 10.82 17.1437 9.26 17.1437 7.5C17.1437 4.47 14.6737 2 11.6437 2C8.61373 2 6.14373 4.47 6.14373 7.5C6.14373 9.63 7.36373 11.48 9.14373 12.39V15.65C6.99373 15.19 7.12373 15.21 6.88373 15.21C6.35373 15.21 5.85373 15.42 5.47373 15.8L4.07373 17.22L9.16373 22.31C9.59373 22.75 10.1937 23 10.8137 23H17.1137C18.0937 23 18.9237 22.3 19.0837 21.33L19.8837 16.62C20.1037 15.32 19.4537 14.04 18.2637 13.44ZM17.9137 16.29L17.1137 21H10.8137C10.7237 21 10.6437 20.96 10.5737 20.9L6.89373 17.22L11.1437 18.11V7.5C11.1437 7.22 11.3637 7 11.6437 7C11.9237 7 12.1437 7.22 12.1437 7.5V13.5H13.9037L17.3637 15.23C17.7637 15.43 17.9837 15.86 17.9137 16.29ZM8.14373 7.5C8.14373 5.57 9.71373 4 11.6437 4C13.5737 4 15.1437 5.57 15.1437 7.5C15.1437 8.45 14.7637 9.31 14.1437 9.94V7.5C14.1437 6.12 13.0237 5 11.6437 5C10.2637 5 9.14373 6.12 9.14373 7.5V9.94C8.52373 9.31 8.14373 8.45 8.14373 7.5Z"
-                    fill="white"
-                  />
-                </svg>
-              </button>
+           
             </div>
           </div>
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">

@@ -13,17 +13,20 @@ const Footer = () => {
               src="/Images/logofull.png"
               alt="Logo"
               class="self-center text-2xl font-semibold whitespace-nowrap text-white"
-            />            
+            />     
+                   
           </div>
           <div className="flex items-center">
-           
+         
           </div>
         </div>
+       
+ 
+
         <div className="border-b-2 border-gradient-b mb-4" />
-        <div className="flex md:justify-between grid grid-cols-1 md:grid-cols-2 gap-4 ">
-          <p className="text-white">celinetodesigns@email.com</p>
-          <p className="text-white">&copy; 2024 Company Name</p>
-        </div>
+   
+
+
       </div>
     </footer>
     </div>

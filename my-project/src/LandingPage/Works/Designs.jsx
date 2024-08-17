@@ -57,7 +57,7 @@ const Designs = () => {
           </div>
         </div>
         <div className="flex justify-center items-center h-full pt-24">
-          <ViewMore />
+    
         </div>
 
         {/* <img

@@ -80,7 +80,7 @@ const MyServices = () => {
                   brand.{" "}
                 </p>
                 <div class="flex-grow"></div>
-                <LearnMore />
+               
               </div>
             </div>
             {/* ---------------------- */}
@@ -124,7 +124,7 @@ const MyServices = () => {
                   tailored solutions.
                 </p>
                 <div class="flex-grow"></div>
-                <LearnMore />
+               
               </div>
             </div>
 
@@ -200,7 +200,7 @@ const MyServices = () => {
                   captivating visuals.
                 </p>
                 <div class="flex-grow"></div>
-                <LearnMore />
+                
               </div>
             </div>
           </div>
