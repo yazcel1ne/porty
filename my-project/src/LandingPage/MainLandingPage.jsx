@@ -44,7 +44,8 @@ function MainLanding() {
         >
           <CTA />
         </section>
-        <section className="relative h-full  py-12 font-raleway">
+        <section
+        id="contact" className="relative h-full  py-12 font-raleway">
           <ContactUs />
         </section>
         <section

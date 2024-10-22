@@ -5,6 +5,8 @@ import ParticleCanvas from "../../assets/ParticleCanvas";
 import WavyBg from "../Pages/WavyBg";
 
 import FadeUpHeader from "../../assets/FadeUpHeader";
+import FigmaLink from "../../Components/FigmaLink";
+import FigmaLink2 from "../../Components/FigmaLink2";
 
 const MyServices = () => {
   return (
@@ -203,6 +205,10 @@ const MyServices = () => {
                 
               </div>
             </div>
+            <div className >
+        
+            </div>
+            <FigmaLink2/>
           </div>
 
           {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}

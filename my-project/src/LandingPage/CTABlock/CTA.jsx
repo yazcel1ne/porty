@@ -11,7 +11,7 @@ const CTA = () => {
         <div class="max-w-screen-xl px-4 my-10  mx-auto grid gap-8 md:grid-cols-1 ">
           <div class="bg-purpbg p-8 flex flex-col justify-center items-center text-white  md:flex md:items-left md:justify-left rounded-[24px]">
             <div class="pb-8">
-              <p className="md:text-5xl text-center text-3xl font-raleway ml-2 font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
+              <p className="mt-12 md:text-5xl text-center text-3xl font-raleway ml-2 font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                 Transform your digital vision into reality.
               </p>
             </div>
@@ -21,7 +21,7 @@ const CTA = () => {
               satisfaction. I ensure a cohesive visual identity across all
               platforms, delivering stunning designs that elevate your brand.
             </p>
-            <ContactButton />
+          
           </div>
         </div>
       </div>

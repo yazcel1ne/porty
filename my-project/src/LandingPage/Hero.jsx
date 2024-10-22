@@ -9,11 +9,12 @@ import {
 import "/src/styles/transitions.css";
 import WavyBg from "./Pages/WavyBg";
 import GradientText from "../assets/GradientText";
+import FigmaLink from "../Components/FigmaLink";
 
 const Hero = () => {
   const downloadPdf = () => {
     window.open(
-      "https://drive.google.com/file/d/1mxeHdjqt5HhNfKIXay-dpw7T8co3eGih/view?usp=sharing",
+      "https://drive.google.com/file/d/1s3rTegsEIkH2P7YuZQUwW9jmeznJPkX5/view?usp=sharing",
       "_blank"
     );
   };
@@ -79,7 +80,7 @@ const Hero = () => {
                   />
                 </svg>
               </button>
-
+<FigmaLink/>
            
             </div>
           </div>

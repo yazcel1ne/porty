@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex justify-center mb-4">
           <div className="flex items-center">
           <img
-              src="/Images/logofull.png"
+              src="/Images/logo5.png"
               alt="Logo"
               class="self-center text-2xl font-semibold whitespace-nowrap text-white"
             />     

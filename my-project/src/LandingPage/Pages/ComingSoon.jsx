@@ -4,6 +4,7 @@ import { BouncingImage, BouncingSmall } from "../../assets/BouncingBall";
 
 import FadeUpHeader from "../../assets/FadeUpHeader";
 import NavBar from "../NavBar";
+import BackButton from "../../Components/BackButton";
 
 const ComingSoon = () => {
   return (
@@ -23,7 +24,12 @@ const ComingSoon = () => {
           <p className="gradient-text text-2xl">
             Something great is just around the corner, stay tuned!
           </p>
+          <div className="pt-4">
+  <BackButton />
+</div>
+
         </div>
+    
 
         <div>
           <img src="src/Images/dia.png" alt="bg" class="dia-right" />

@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
   const downloadPdf = () => {
     window.open(
-      "https://drive.google.com/file/d/1mxeHdjqt5HhNfKIXay-dpw7T8co3eGih/view?usp=sharing",
+      "https://drive.google.com/file/d/1s3rTegsEIkH2P7YuZQUwW9jmeznJPkX5/view?usp=sharing",
       "_blank"
     );
   };
@@ -83,6 +83,24 @@ const NavBar = () => {
                 >
                   Services
                 </a>
+              </li>
+              <li>
+              <a
+  href="#"
+  className="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+  onClick={(e) => {
+    e.preventDefault();
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }}
+>
+  Contact Me
+</a>
+
               </li>
               {/* Add more list items as needed */}
             </ul>
