@@ -4,6 +4,8 @@ import ViewButton from "../../Components/ViewButton";
 import ViewMore from "../../Components/ViewMore";
 import { BouncingImage, BouncingSmall } from "../../assets/BouncingBall";
 import ImageModal from "./DesignComps.jsx/ImageModel";
+import FigmaLink from "../../Components/FigmaLink";
+import FigmaLink2 from "../../Components/FigmaLink2";
 
 const Designs = () => {
   return (
@@ -56,21 +58,14 @@ const Designs = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center h-full pt-24">
-    
+      
+
+      <div className=" pb-12 pt-8">
+        <FigmaLink2/>
         </div>
 
-        {/* <img
-          src="/Images/donut.png"
-          alt="bg"
-          class="absolute top-50 right-0"
-        /> */}
-        {/* <div className=" absolute top-400 right-40">
-          {" "}
-          <BouncingSmall />
-        </div> */}
-    
       </div>
+    
     </div>
   );
 };

@@ -90,10 +90,6 @@ const Hero = () => {
         </div>
       </section>
 
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        {" "}
-        <BouncingSmall />
-      </div>
 
       <div className="absolute top-4/3 left-2/3 transform -translate-x-4/2 -translate-y-1/5">
         {" "}

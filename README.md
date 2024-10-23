@@ -8,4 +8,4 @@
 
 - npm i @react-pdf/renderer
 
-- npm install @formspree/react
+- npm install @formspree/reactrun 
