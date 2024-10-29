@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
           </div>
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/Images/hero21.png" alt="bg" />
+            <img src="/Images/pic.png" alt="bg" />
           </div>
         </div>
       </section>
