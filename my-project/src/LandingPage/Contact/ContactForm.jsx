@@ -3,7 +3,7 @@ import GradientText from "../../assets/GradientText";
 
 const ContactForm = () => {
   return (
-    <div className=" bg-gradient-custom font-raleway rounded-[24px]">
+    <div className=" bg-gradient-custom font-raleway rounded-[24px] shadow-lg">
       <div className="py-8 lg:py-8 px-8 mx-auto max-w-screen-md">
         <p className="block mb-2 text-2xl font-medium text-purple-300">
           Let me know what you think.

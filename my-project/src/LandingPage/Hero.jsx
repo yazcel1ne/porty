@@ -32,11 +32,11 @@ const Hero = () => {
       </div> */}
 
       <section class="bg-transparent ">
-        <div class="zindexdiv grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20">
+        <div class="zindexdiv grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-20 ">
           <div class="mr-auto place-self-center lg:col-span-7">
             <div className="max-w-2xl mb-4 animate-left">
               <span class="text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-                <h1 className="text-4xl mb-4 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white ">
+                <h1 className="text-4xl mb-4 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white pt-20">
                   Hi!
                 </h1>
               </span>

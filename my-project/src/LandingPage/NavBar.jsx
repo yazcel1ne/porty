@@ -10,9 +10,12 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-gradient-custom dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
+      <nav className="bg-gradient-custom dark:bg-gray-900 fixed w-full z-20 top-0 start-0 shadow-md">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a
+            href=""
+            className="flex items-center space-x-3 rtl:space-x-reverse"
+          >
             <img
               src="/Images/logo5.png"
               alt="Logo"
@@ -60,7 +63,7 @@ const NavBar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-bwhite md:p-0 md:dark:text-white"
+                  className="block py-2 px-3 text-white  border-b-2 border-transparent hover:border-white md:bg-transparent md:text-bwhite md:p-0 md:dark:text-white"
                   aria-current="page"
                 >
                   Home
@@ -69,15 +72,13 @@ const NavBar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-white  border-b-2 border-transparent hover:border-white md:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   onClick={(e) => {
                     e.preventDefault();
                     const servicesSection =
                       document.getElementById("my-services");
                     if (servicesSection) {
-                      servicesSection.scrollIntoView({
-                        behavior: "smooth",
-                      });
+                      servicesSection.scrollIntoView({ behavior: "smooth" });
                     }
                   }}
                 >
@@ -85,22 +86,19 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-              <a
-  href="#"
-  className="block py-2 px-3 text-white rounded hover:bg-purple-400 md:hover:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-  onClick={(e) => {
-    e.preventDefault();
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
-  }}
->
-  Contact Me
-</a>
-
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-white  border-b-2 border-transparent hover:border-white md:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const contactSection = document.getElementById("contact");
+                    if (contactSection) {
+                      contactSection.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                >
+                  Contact Me
+                </a>
               </li>
               {/* Add more list items as needed */}
             </ul>

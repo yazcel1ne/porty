@@ -23,8 +23,8 @@ const MyServices = () => {
 
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px] ">
-              {" "}
+          <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">
+          {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="42"
@@ -87,8 +87,7 @@ const MyServices = () => {
             </div>
             {/* ---------------------- */}
 
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]">
-              {" "}
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -130,8 +129,7 @@ const MyServices = () => {
               </div>
             </div>
 
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px] ">
-              {" "}
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
