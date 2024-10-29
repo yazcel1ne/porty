@@ -54,7 +54,7 @@ const ContactUs = () => {
                         </linearGradient>
                       </defs>
                     </svg>
-                    <p className="text-center pt-2 pl-4">
+                    <p className="text-center pt-0 pl-4">
                       celineterrado@gmail.com
                     </p>
                   </div>
