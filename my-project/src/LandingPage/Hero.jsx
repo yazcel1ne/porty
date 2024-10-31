@@ -10,6 +10,7 @@ import "/src/styles/transitions.css";
 import WavyBg from "./Pages/WavyBg";
 import GradientText from "../assets/GradientText";
 import FigmaLink from "../Components/FigmaLink";
+import BehanceLink from "../Components/BehanceLink";
 
 const Hero = () => {
   const downloadPdf = () => {
@@ -57,29 +58,7 @@ const Hero = () => {
             </div>
 
             <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4">
-              <button
-                onClick={downloadPdf}
-                className="inline-flex items-center bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] mr-4"
-              >
-                DOWNLOAD CV
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  className="ml-2"
-                >
-                  <path
-                    d="M21.1837 12.7051H15.9796L13.6327 15.0641C13.4286 15.2692 13.1224 15.4744 12.9184 15.5769C12.6122 15.6795 12.3061 15.7821 12 15.7821C11.6939 15.7821 11.3878 15.6795 11.0816 15.5769C10.7755 15.4744 10.5714 15.2692 10.3673 15.0641L8.02041 12.7051H2.81633C2.40816 12.7051 2 13.0128 2 13.5256V17.3205C2 18.7564 3.12245 19.9872 4.55102 20.0897C6.69388 20.2949 9.65306 20.5 12 20.5C14.3469 20.5 17.3061 20.2949 19.449 20.0897C20.8776 19.9872 22 18.7564 22 17.3205V13.5256C22 13.1154 21.5918 12.7051 21.1837 12.7051Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M10.1633 12.7051L11.4898 14.0385C11.5918 14.141 11.6939 14.141 11.6939 14.2436C11.7959 14.2436 11.898 14.3462 12 14.3462C12.102 14.3462 12.2041 14.3462 12.3061 14.2436C12.4082 14.2436 12.5102 14.141 12.5102 14.0385L15.5714 10.9615C15.8776 10.6538 15.8776 10.141 15.5714 9.83333C15.3673 9.73077 15.2653 9.62821 15.0612 9.62821C14.8571 9.62821 14.6531 9.73077 14.551 9.83333L12.8163 11.5769V5.32051C12.8163 4.91026 12.5102 4.5 12 4.5C11.4898 4.5 11.1837 4.91026 11.1837 5.32051V11.6795L9.44898 9.9359C9.34694 9.73077 9.14286 9.62821 8.93878 9.62821C8.73469 9.62821 8.53061 9.73077 8.42857 9.9359C8.12245 10.2436 8.12245 10.7564 8.42857 11.0641L10.1633 12.7051Z"
-                    fill="white"
-                  />
-                </svg>
-              </button>
+            <BehanceLink/>
 <FigmaLink/>
            
             </div>
