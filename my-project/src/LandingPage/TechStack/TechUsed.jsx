@@ -24,7 +24,7 @@ const TechUsed = () => {
                   <span>Design</span>
                 </h1>
               </div>
-              <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 bg-purpbg rounded-[24px] shadow-lg">
+              <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 glassmorphism rounded-[24px] shadow-lg">
                 <div className="text-center md:pb-16 ">
                   <img
                     src="/Images/TechLogos/figma.svg"
@@ -98,7 +98,7 @@ const TechUsed = () => {
                 </h1>
               </div>
 
-              <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 bg-purpbg rounded-[24px] shadow-lg">
+              <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 glassmorphism rounded-[24px] shadow-lg">
                 <div className="text-center md:pb-16 ">
                   <img
                     src="/Images/TechLogos/html5.svg"

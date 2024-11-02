@@ -20,115 +20,106 @@ const Designs = () => {
       </div>
 
       <div class="relative-container">
-        <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
+        <div class="max-w-screen-xl px-4 mx-auto grid gap-0 md:gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/karmine2.png" alt="Karmine" />
 
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">Karmine</h2>
-             
             </div>
           </div>
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/plant2.png" alt="Oasis" />
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">Oasis</h2>
-          
             </div>
           </div>
         </div>
-{/* ------------------------------------------------------------- */}
+        {/* ------------------------------------------------------------- */}
 
-<div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
+        <div class="max-w-screen-xl px-4 mx-auto grid gap-0 md:gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/DesignImages/LoyaltyTXT.png" alt="LoyaltyTXT" />
-            <div class="py-4">
+            <ImageModal
+              src="/Images/DesignImages/LoyaltyTXT.png"
+              alt="LoyaltyTXT"
+            />
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">LoyaltyTXT</h2>
-             
             </div>
           </div>
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/DesignImages/Swiss.png" alt="Switzerland" />
-            <div class="py-4">
+            <ImageModal
+              src="/Images/DesignImages/Swiss.png"
+              alt="Switzerland"
+            />
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">Exploring Switzerland</h2>
-             
             </div>
           </div>
         </div>
 
-
-
-
-
         {/* ------------------------------------------------------------- */}
 
-<div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
+        <div class="max-w-screen-xl px-4 mx-auto grid gap-0 md:gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/CB.png" alt="CyberRebirth" />
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">CyberRebirth</h2>
-             
             </div>
           </div>
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/Astoria.png" alt="Astoria" />
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">Hotel Astoria</h2>
-              
             </div>
           </div>
         </div>
 
-
-{/* 
+        {/* 
         ---------------------------------------------- */}
 
-
-<div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2">
+        <div class="max-w-screen-xl px-4 mx-auto grid gap-0 md:gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/DH.png" alt="DisputeHelp" />
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">DisputeHelp</h2>
-             
             </div>
           </div>
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
-            <ImageModal src="/Images/DesignImages/PizzaPlace.png" alt="PizzaPlace" />
+            <ImageModal
+              src="/Images/DesignImages/PizzaPlace.png"
+              alt="PizzaPlace"
+            />
             <div class="py-4">
               <h2 className=" text-lg font-semibold ">That Pizza Place</h2>
-              
             </div>
           </div>
         </div>
 
-
-{/* 
+        {/* 
         ---------------------------------------------- */}
 
-
-        <div class="max-w-screen-xl px-4 mx-auto grid gap-10 md:grid-cols-2">
+        <div class="max-w-screen-xl px-4 mx-auto grid gap-0 md:gap-8 md:grid-cols-2">
           <div className=" flex flex-col text-white rounded-[24px] mb-8 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/juice2.png" alt="Juice" />
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">JuiceLabs</h2>
-            
             </div>
           </div>
 
           {/* ---------------------- */}
           <div className=" flex flex-col text-white rounded-[24px] mb-10 md:flex md:items-left md:justify-left ">
             <ImageModal src="/Images/DesignImages/car2.png" alt="Luminaire" />
-            <div class="py-4">
+            <div class="py-2">
               <h2 className=" text-lg font-semibold ">Luminaire</h2>
-            
             </div>
           </div>
         </div>

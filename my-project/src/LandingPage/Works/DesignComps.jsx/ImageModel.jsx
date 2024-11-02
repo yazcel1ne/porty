@@ -23,7 +23,7 @@ const ImageModal = ({ src, alt, modalText }) => {
       <img
         src={src}
         alt={alt}
-        className="w-full h-80 object-cover object-top rounded-[24px] transition-transform duration-300 transform hover:scale-105 cursor-pointer"
+        className="w-full h-80 object-cover object-top rounded-[24px] transition-transform duration-300 transform hover:scale-95 cursor-pointer"
         onClick={toggleModal}
       />
 

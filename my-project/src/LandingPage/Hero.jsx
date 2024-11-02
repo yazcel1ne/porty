@@ -58,9 +58,8 @@ const Hero = () => {
             </div>
 
             <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4">
-            <BehanceLink/>
-<FigmaLink/>
-           
+              <BehanceLink />
+              <FigmaLink />
             </div>
           </div>
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -69,16 +68,15 @@ const Hero = () => {
         </div>
       </section>
 
-
       <div className="absolute top-4/3 left-2/3 transform -translate-x-4/2 -translate-y-1/5">
         {" "}
         <BouncingImage />
       </div>
 
-    <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingImage />
-      </div> 
+      </div>
       {/* <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />

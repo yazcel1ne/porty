@@ -3,9 +3,9 @@ import GradientText from "../../assets/GradientText";
 
 const ContactForm = () => {
   return (
-    <div className=" bg-gradient-custom font-raleway rounded-[24px] shadow-lg">
+    <div className=" glassmorphism font-raleway rounded-[24px] shadow-lg">
       <div className="py-8 lg:py-8 px-8 mx-auto max-w-screen-md">
-        <p className="block mb-2 text-2xl font-medium text-purple-300">
+        <p className="block mb-2 text-2xl font-medium text-white">
           Let me know what you think.
         </p>
         <form
@@ -17,7 +17,7 @@ const ContactForm = () => {
           <div>
             <label
               htmlFor="email"
-              className="block mb-2 text-sm font-medium text-purple-300"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Your email
             </label>
@@ -33,7 +33,7 @@ const ContactForm = () => {
           <div>
             <label
               htmlFor="subject"
-              className="block mb-2 text-sm font-medium text-purple-300"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Subject
             </label>
@@ -49,7 +49,7 @@ const ContactForm = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block mb-2 text-sm font-medium text-purple-300"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Your message
             </label>

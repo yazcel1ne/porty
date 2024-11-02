@@ -82,3 +82,10 @@
 .zindexdiv {
   z-index: 20;
 }
+
+.glassmorphism {
+  background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent background */
+  backdrop-filter: blur(10px); /* Blurring the background */
+  border-radius: 20px; /* Match your existing border radius */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Darker shadow for more depth */
+}
