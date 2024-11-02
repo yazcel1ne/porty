@@ -281,16 +281,15 @@ const MyServices = () => {
       </div>
 
       <div className="flex justify-center w-full">
-  <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
-    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
-      <BehanceLink />
-    </div>
-    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
-      <FigmaLink />
-    </div>
-  </div>
-</div>
-
+        <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
+          <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
+            <BehanceLink />
+          </div>
+          <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
+            <FigmaLink />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

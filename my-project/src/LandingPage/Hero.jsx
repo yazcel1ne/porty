@@ -63,12 +63,12 @@ const Hero = () => {
             </div>
           </div>
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/Images/pic2.png" alt="bg" />
+            <img src="/Images/pic3.png" alt="bg" />
           </div>
         </div>
       </section>
 
-      <div className="absolute top-4/3 left-2/3 transform -translate-x-4/2 -translate-y-1/5">
+      {/* <div className="absolute top-4/3 left-2/3 transform -translate-x-4/2 -translate-y-1/5">
         {" "}
         <BouncingImage />
       </div>
@@ -76,7 +76,7 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingImage />
-      </div>
+      </div> */}
       {/* <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />
