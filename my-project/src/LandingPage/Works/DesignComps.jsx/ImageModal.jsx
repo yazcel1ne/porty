@@ -25,7 +25,7 @@ const ImageModal = ({ src, alt, modalText }) => {
         <img
           src={src}
           alt={alt}
-          className="w-full h-80 object-cover object-top rounded-[24px] cursor-pointer transition-transform duration-300 hover:scale-125 hover:-rotate-6" // Adjusted scale and rotation
+          className="w-full h-80 object-cover object-top rounded-[24px] cursor-pointer transition-transform duration-300 hover:scale-110 hover:rotate-3"
           onClick={toggleModal}
         />
       </div>
@@ -36,11 +36,11 @@ const ImageModal = ({ src, alt, modalText }) => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
           onClick={handleClose}
         >
-          {/* Modal container at 70% size */}
-          <div className="w-3/4 h-3/4 rounded-lg overflow-hidden shadow-lg flex flex-col relative">
+          {/* Modal container with responsive sizing */}
+          <div className="w-11/12 md:w-3/4 lg:w-2/3 h-11/12 md:h-3/4 rounded-lg overflow-hidden shadow-lg flex flex-col relative">
             {/* Scrollable content area */}
             <div className="flex-1 overflow-y-auto p-4">
-              <p className="text-black mb-4 text-center">{modalText}</p>
+              <p className="text-white mb-4 text-center">{modalText}</p>
               <img
                 src={src}
                 alt={alt}
