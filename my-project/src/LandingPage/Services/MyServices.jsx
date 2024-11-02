@@ -71,8 +71,8 @@ const MyServices = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <div class="font-raleway p-8 flex flex-col flex-grow">
-                <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl mb-6">
+              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-8">
+                <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
                   Web & Mobile Design
                 </h1>
                 <p class="mb-0">
@@ -114,8 +114,8 @@ const MyServices = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <div class="font-raleway p-8 flex flex-col flex-grow">
-              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl mb-6">
+              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-8">
+              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
                   WordPress Development
                 </h1>
                 <p class="mb-0">
@@ -189,8 +189,8 @@ const MyServices = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <div class="font-raleway p-8 flex flex-col flex-grow">
-              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl mb-6">
+              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-8">
+              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
                   Graphic & Logo Design
                 </h1>
                 <p class="mb-0">
