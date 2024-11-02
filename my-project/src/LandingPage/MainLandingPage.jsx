@@ -17,18 +17,11 @@ function MainLanding() {
   return (
     <>
       <div className=" parallax ">
-      <section 
-  className="glassmorphismNoRadius h-screen py-12 font-raleway" 
-  style={{ 
-    backgroundImage: `url('/Images/bgrad4.png')`,  // Replace with your image path
-    backgroundRepeat: 'repeat',
-    backgroundSize: 'auto', // You can adjust this if needed
-    backgroundPosition: 'center',
-  }}
->
-  <WavyBg />
-  <Hero />
-</section>
+        <section className="glassmorphismNoRadius h-screen py-12 font-raleway">
+         
+          <Hero />
+          
+        </section>
 
         <section
           id="my-services"
@@ -39,7 +32,7 @@ function MainLanding() {
           <MyServices />
         </section>
         <section className=" glassmorphismNoRadius h-full  py-12  font-raleway">
-          <WavyBg/>
+          <WavyBg />
           <Designs />
         </section>
         <section
@@ -55,8 +48,7 @@ function MainLanding() {
         >
           <CTA />
         </section>
-        <section
-        id="contact" className="relative h-full  py-12 font-raleway">
+        <section id="contact" className="relative h-full  py-12 font-raleway">
           <ContactUs />
         </section>
         <section
