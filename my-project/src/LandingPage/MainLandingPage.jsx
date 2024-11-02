@@ -10,6 +10,7 @@ import "/src/styles/animatedBg.css";
 import ParticleCanvas from "../assets/ParticleCanvas.jsx";
 import Footer from "./Footer.jsx";
 import ContactUs from "./Contact/ContactUs.jsx";
+import WavyBg2 from "./Pages/WavyBg2.jsx";
 
 function MainLanding() {
   const servicesRef = useRef(null);
@@ -18,9 +19,8 @@ function MainLanding() {
     <>
       <div className=" parallax ">
         <section className="glassmorphismNoRadius h-screen py-12 font-raleway">
-         
+          <WavyBg2/>
           <Hero />
-          
         </section>
 
         <section
@@ -32,7 +32,7 @@ function MainLanding() {
           <MyServices />
         </section>
         <section className=" glassmorphismNoRadius h-full  py-12  font-raleway">
-          <WavyBg />
+         
           <Designs />
         </section>
         <section

@@ -11,16 +11,16 @@ const TechUsed = () => {
           <TechHeader />
         </div>
 
-        <div class="relative-container">
-          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2 ">
+        <div class="">
+          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-2  ">
             <div>
-              <div>
+              <div >
                 <img
                   src="/Images/TechLogos/Palette.png"
                   alt="Palette"
                   class="mr-2 w-10 h-auto inline-block pb-2"
                 />
-                <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
+                <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white ">
                   <span>Design</span>
                 </h1>
               </div>

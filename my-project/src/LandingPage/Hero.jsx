@@ -71,22 +71,18 @@ const Hero = () => {
       {/* <div className="absolute top-4/3 left-2/3 transform -translate-x-4/2 -translate-y-1/5">
         {" "}
         <BouncingImage />
-      </div>
+      </div> */}
 
-      <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+      {/* <div className="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingImage />
-      </div> */}
+      </div>  
       {/* <div className="absolute top-4/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
         {" "}
         <BouncingSmall />
       </div>  */}
 
-      {/* <div>
-        <div class="absolute top-20 right-0 bottom-0 w-20 border-gradient-a" >
-          <img src="src/Images/donut.png" alt="bg" />
-        </div>
-      </div> */}
+    
     </>
   );
 };
