@@ -37,10 +37,21 @@ const ImageModal = ({ src, alt, modalText }) => {
             <p className="text-white mb-4">{modalText}</p>
             <img src={src} alt={alt} className="max-w-full max-h-full" />
             <button
-              className="absolute top-0 right-0 p-4 text-white"
+              className="absolute top-0 right-0 mt-[130px] mr-5 text-white"
               onClick={toggleModal}
+              style={{
+                backgroundColor: "rgba(50, 50, 50, 0.8)", // Dark grayish background
+                borderRadius: "50%",
+                width: "40px",
+                height: "40px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "none",
+                cursor: "pointer",
+              }}
             >
-              Close
+              <span style={{ fontSize: "20px" }}>×</span>
             </button>
           </div>
         </div>
