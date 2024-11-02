@@ -7,6 +7,8 @@ import WavyBg from "../Pages/WavyBg";
 import FadeUpHeader from "../../assets/FadeUpHeader";
 import FigmaLink from "../../Components/FigmaLink";
 import FigmaLink2 from "../../Components/FigmaLink2";
+import BehanceLink2 from "../../Components/BehanceLink2";
+import BehanceLink from "../../Components/BehanceLink";
 
 const MyServices = () => {
   return (
@@ -272,12 +274,23 @@ const MyServices = () => {
               </div>
             </div>
             <div className></div>
-            <FigmaLink2 />
           </div>
 
           {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
         </div>
       </div>
+
+      <div className="flex justify-center w-full">
+  <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
+    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
+      <BehanceLink />
+    </div>
+    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
+      <FigmaLink />
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

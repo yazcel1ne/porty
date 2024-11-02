@@ -6,6 +6,7 @@ import { BouncingImage, BouncingSmall } from "../../assets/BouncingBall";
 import ImageModal from "./DesignComps.jsx/ImageModel";
 import FigmaLink from "../../Components/FigmaLink";
 import FigmaLink2 from "../../Components/FigmaLink2";
+import BehanceLink from "../../Components/BehanceLink";
 
 const Designs = () => {
   return (
@@ -123,11 +124,18 @@ const Designs = () => {
             </div>
           </div>
         </div>
-
-        <div className=" pb-12 pt-8">
-          <FigmaLink2 />
-        </div>
       </div>
+      <div className="flex justify-center w-full">
+  <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
+    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
+      <BehanceLink />
+    </div>
+    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
+      <FigmaLink />
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
