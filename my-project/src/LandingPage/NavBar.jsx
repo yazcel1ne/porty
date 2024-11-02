@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NavBar = () => {
+  const [activeLink, setActiveLink] = useState("home"); // Initialize the active link state
+
   const downloadPdf = () => {
     window.open(
       "https://drive.google.com/file/d/1s3rTegsEIkH2P7YuZQUwW9jmeznJPkX5/view?usp=sharing",
@@ -10,7 +12,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-gradient-custom fixed w-full z-50 top-0  shadow-md">
+      <nav className="bg-gradient-custom fixed w-full z-50 top-0 shadow-md">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href=""
@@ -63,7 +65,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white border-b-2 border-transparent hover:border-white md:bg-transparent md:text-bwhite md:p-0 md:dark:text-white"
+                  onClick={() => setActiveLink("home")} // Update active link state
+                  className={`block py-2 px-3 ${activeLink === "home" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
                   aria-current="page"
                 >
                   Home
@@ -72,15 +75,15 @@ const NavBar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white border-b-2 border-transparent hover:border-white md:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   onClick={(e) => {
                     e.preventDefault();
-                    const servicesSection =
-                      document.getElementById("my-services");
+                    const servicesSection = document.getElementById("my-services");
                     if (servicesSection) {
                       servicesSection.scrollIntoView({ behavior: "smooth" });
                     }
+                    setActiveLink("services"); // Update active link state
                   }}
+                  className={`block py-2 px-3 ${activeLink === "services" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
                 >
                   Services
                 </a>
@@ -88,14 +91,31 @@ const NavBar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white border-b-2 border-transparent hover:border-white md:bg-transparent md:hover:text-white md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const designsSection = document.getElementById("my-designs");
+                    if (designsSection) {
+                      designsSection.scrollIntoView({ behavior: "smooth" });
+                    }
+                    setActiveLink("designs"); // Update active link state
+                  }}
+                  className={`block py-2 px-3 ${activeLink === "designs" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
+                >
+                  Designs
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
                   onClick={(e) => {
                     e.preventDefault();
                     const contactSection = document.getElementById("contact");
                     if (contactSection) {
                       contactSection.scrollIntoView({ behavior: "smooth" });
                     }
+                    setActiveLink("contact"); // Update active link state
                   }}
+                  className={`block py-2 px-3 ${activeLink === "contact" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
                 >
                   Contact Me
                 </a>

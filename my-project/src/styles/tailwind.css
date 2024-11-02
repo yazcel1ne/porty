@@ -115,3 +115,14 @@
   position: relative; /* Create a positioning context for child elements */
   height: 100vh; /* Ensure the section takes full height of the viewport */
 }
+
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #bf94e7
+  ); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

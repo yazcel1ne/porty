@@ -33,7 +33,9 @@ function MainLanding() {
 
           <MyServices />
         </section>
-        <section className=" glassmorphismNoRadius h-full  py-12  font-raleway">
+        <section 
+         id="my-designs"
+        className=" glassmorphismNoRadius h-full  py-12  font-raleway">
           <Designs />
         </section>
         <section
