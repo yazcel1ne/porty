@@ -12,7 +12,7 @@ export default {
         raleway: ["Raleway", "sans-serif"],
       },
       colors: {
-        purpbg: "#2E233B",
+        purpbg: "#17102B",
       },
       animation: {
 

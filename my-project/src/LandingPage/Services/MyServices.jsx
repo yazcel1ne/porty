@@ -23,8 +23,8 @@ const MyServices = () => {
 
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
-          <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">
-          {" "}
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="42"
@@ -71,23 +71,45 @@ const MyServices = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-8">
+              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-12">
                 <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
                   Web & Mobile Design
                 </h1>
-                <p class="mb-0">
-                  I design intuitive interfaces that enhance user engagement and
-                  satisfaction. I ensure a cohesive visual identity across all
-                  platforms, delivering stunning designs that elevate your
-                  brand.{" "}
-                </p>
+                <ul>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Consistency and Responsiveness of design.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Stunning designs that elevate your brand’s presence.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Focused on clean, modern aesthetics.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    User-friendly interfaces that boost engagement and
+                    satisfaction.
+                  </li>
+                </ul>
+
                 <div class="flex-grow"></div>
-               
               </div>
             </div>
             {/* ---------------------- */}
 
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">              {" "}
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -114,22 +136,47 @@ const MyServices = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-8">
-              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
+              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-12">
+                <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
                   WordPress Development
                 </h1>
-                <p class="mb-0">
-                  Experienced in WordPress development, crafting custom themes
-                  and plugins. Emphasis on optimizing sites for SEO and
-                  performance. Dedicated to realizing clients' visions with
-                  tailored solutions.
-                </p>
+                <ul>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Skilled in WordPress development, custom themes, and
+                    plugins.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Focused on SEO and performance optimization for fast,
+                    user-friendly sites.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Committed to bringing clients' ideas to life with unique
+                    designs.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Dedicated to delivering high-quality results that exceed
+                    expectations.
+                  </li>
+                </ul>
+
                 <div class="flex-grow"></div>
-               
               </div>
             </div>
 
-            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">              {" "}
+            <div className="bg-purpbg flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform hover:scale-105 rounded-[24px]  shadow-lg">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -189,24 +236,43 @@ const MyServices = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-8">
-              <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
+              <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-12">
+                <h1 class="text-2xl  font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
                   Graphic & Logo Design
                 </h1>
-                <p class="mb-0">
-                  Experienced at creating unique visuals that resonate with
-                  clients' target audiences. Through close collaboration from
-                  concept to completion and bring brands to life with
-                  captivating visuals.
-                </p>
+                <ul>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Bring brands to life with captivating and engaging visuals.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Skilled in AI Prompting to deliver unique visual graphics.
+                  </li>
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Creating unique and aesthetic visuals.
+                  </li>
+
+                  <li class="flex items-start text-gray-400 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Ensure each design aligns with brand identity and goals.
+                  </li>
+                </ul>
+
                 <div class="flex-grow"></div>
-                
               </div>
             </div>
-            <div className >
-        
-            </div>
-            <FigmaLink2/>
+            <div className></div>
+            <FigmaLink2 />
           </div>
 
           {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
