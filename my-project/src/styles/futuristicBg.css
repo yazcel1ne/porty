@@ -3,7 +3,7 @@
 .wave {
   position: absolute;
   opacity: 0.2;
-  width: 1500px;
+  width: 1400px;
   height: 1300px;
   border-radius: 43%;
   pointer-events: none; /* Prevents interaction issues */
