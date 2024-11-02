@@ -23,9 +23,8 @@ const MyServices = () => {
 
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
-          <div className="glassmorphism flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
-
-          {" "}
+            <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="42"
@@ -77,25 +76,25 @@ const MyServices = () => {
                   Web & Mobile Design
                 </h1>
                 <ul>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Consistency and Responsiveness of design.
                   </li>
-                  <li class="flex items-start  text-white  mb-2">
+                  <li class="flex items-start  text-gray-300  mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Stunning designs that elevate your brand’s presence.
                   </li>
-                  <li class="flex items-start  text-white mb-2">
+                  <li class="flex items-start  text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Focused on clean, modern aesthetics.
                   </li>
-                  <li class="flex items-start text-white  mb-2">
+                  <li class="flex items-start text-gray-300  mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
@@ -109,8 +108,8 @@ const MyServices = () => {
             </div>
             {/* ---------------------- */}
 
-            <div className="glassmorphism flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
-            {" "}
+            <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -149,21 +148,21 @@ const MyServices = () => {
                     Skilled in WordPress development, custom themes, and
                     plugins.
                   </li>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Focused on SEO and performance optimization for fast,
                     user-friendly sites.
                   </li>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Committed to bringing clients' ideas to life with unique
                     designs.
                   </li>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
@@ -176,8 +175,8 @@ const MyServices = () => {
               </div>
             </div>
 
-            <div className="glassmorphism flex-col text-white mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
-            {" "}
+            <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -242,19 +241,19 @@ const MyServices = () => {
                   Graphic & Logo Design
                 </h1>
                 <ul>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Bring brands to life with captivating and engaging visuals.
                   </li>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Skilled in AI Prompting to deliver unique visual graphics.
                   </li>
-                  <li class="flex items-start text-white mb-2">
+                  <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
