@@ -11,6 +11,7 @@ import ParticleCanvas from "../assets/ParticleCanvas.jsx";
 import Footer from "./Footer.jsx";
 import ContactUs from "./Contact/ContactUs.jsx";
 import WavyBg2 from "./Pages/WavyBg2.jsx";
+import Futuristic from "./Pages/Futuristic.jsx";
 
 function MainLanding() {
   const servicesRef = useRef(null);
@@ -18,8 +19,9 @@ function MainLanding() {
   return (
     <>
       <div className=" parallax ">
-        <section className="glassmorphismNoRadius h-screen py-12 font-raleway">
-          <WavyBg2/>
+        <section className="glassmorphismHero h-screen py-12 font-raleway">
+          <Futuristic />
+
           <Hero />
         </section>
 
@@ -32,7 +34,6 @@ function MainLanding() {
           <MyServices />
         </section>
         <section className=" glassmorphismNoRadius h-full  py-12  font-raleway">
-         
           <Designs />
         </section>
         <section

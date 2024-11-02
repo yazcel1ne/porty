@@ -1,0 +1,34 @@
+
+
+.wave {
+  position: absolute;
+  opacity: 0.2;
+  width: 1500px;
+  height: 1300px;
+  border-radius: 43%;
+  pointer-events: none; /* Prevents interaction issues */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wave.-one {
+  animation: rotate 10000ms infinite linear;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.wave.-two {
+  animation: rotate 6000ms infinite linear;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.bg-transparent {
+  overflow: hidden; /* Hide overflow from the Futuristic animation */
+  position: relative; /* Ensure the section has a defined positioning context */
+}

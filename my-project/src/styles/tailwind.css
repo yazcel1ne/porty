@@ -11,17 +11,13 @@
 }
 
 .border-gradient-a {
-
   border-image: linear-gradient(to bottom, #bb96f6, #7d3de3) 1;
-
 }
 
 .border-gradient-b {
-  
-    border-style: solid;
-    border-width: 1px;
-    border-color: #bb96f6;
-  
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bb96f6;
 }
 
 .gradient-text {
@@ -39,7 +35,6 @@
   position: relative;
   z-index: 1;
 }
-
 
 .background-image {
   position: absolute;
@@ -90,14 +85,11 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Darker shadow for more depth */
 }
 
-
 .glassmorphismNoRadius {
   background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent background */
- 
 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Darker shadow for more depth */
 }
-
 
 .glassmorphism2 {
   background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent background */
@@ -112,4 +104,14 @@
 
 .image-container img:hover {
   transform: scale(1.1) rotate(-5deg); /* Scale up and rotate on hover */
+}
+
+.glassmorphismHero {
+  background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent background */
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Darker shadow for more depth */
+
+  overflow: hidden; /* Hide overflow from the Futuristic animation */
+  position: relative; /* Create a positioning context for child elements */
+  height: 100vh; /* Ensure the section takes full height of the viewport */
 }
