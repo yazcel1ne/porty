@@ -34,7 +34,7 @@ const Designs = () => {
             >
               <ImageModal src={image.src} alt={image.alt} />
               <div className="absolute top-0 left-0 w-full glassmorphism2 p-2 text-center">
-                <h2 className="text-lg font-semibold">{image.title}</h2>
+                <h2 className="text-md font-semibold">{image.title}</h2>
               </div>
             </div>
           ))}
