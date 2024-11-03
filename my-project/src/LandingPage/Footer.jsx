@@ -4,7 +4,7 @@ import WavyBg from "./Pages/WavyBg";
 const Footer = () => {
   return (
     <div className="relative">
-      <footer className="max-w-screen-xl px-4 my-2 mx-auto grid gap-8 md:grid-cols-1">
+      <footer className="max-w-screen-xl px-4 my-1 mx-auto grid gap-8 md:grid-cols-1">
         <div className="container mx-auto p-4 pt-6 md:p-6">
           <div className="flex justify-center mb-4">
             <div className="flex items-center">
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-center text-white">
-              ©Copyright. All Rights Reserved
+              ©Copyright. All Rights Reserved.
             </p>
           </div>
         </div>

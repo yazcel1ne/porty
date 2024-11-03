@@ -78,17 +78,18 @@ const MyServices = () => {
                   Web & Mobile Design
                 </h1>
                 <ul>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Consistency and Responsiveness of design.
-                  </li>
+                 
                   <li class="flex items-start  text-gray-300  mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Stunning designs that elevate your brand’s presence.
+                  </li>
+                  <li class="flex items-start text-gray-300 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Consistency and Responsiveness of design.
                   </li>
                   <li class="flex items-start  text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
@@ -147,7 +148,7 @@ const MyServices = () => {
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
-                    Focused on SEO and site performances.
+                    Experienced in SEO and Site Performance Enhancements.
                   </li>
 
                   <li class="flex items-start text-gray-300 mb-2">
@@ -229,24 +230,25 @@ const MyServices = () => {
                   Graphic & Logo Design
                 </h1>
                 <ul>
+                <li class="flex items-start text-gray-300 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Creating unique and aesthetic visuals.
+                  </li>
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Skilled in AI Prompting to deliver unique visual graphics.
                   </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Creating unique and aesthetic visuals.
-                  </li>
+                 
 
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
-                    Ensure each design aligns with brand identity and goals.
+                    Ensuring each design aligns with brand identity and goals.
                   </li>
                 </ul>
 
