@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className=" glassmorphism font-raleway rounded-[24px] shadow-lg">
       <div className="py-8 lg:py-8 px-8 mx-auto max-w-screen-md">
-        <p className="block mb-2 text-2xl font-medium text-white">
+        <p className="block mb-2 font-medium text-white">
           Let me know what you think.
         </p>
         <form
@@ -64,7 +64,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-           className="bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] md:w-auto w-full">          
+           className="bg-gradient-to-r from-purple-500 to-purple-800 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] md:w-auto w-full">          
             Send message
           </button>
         </form>

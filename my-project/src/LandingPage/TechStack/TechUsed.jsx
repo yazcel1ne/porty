@@ -20,7 +20,7 @@ const TechUsed = () => {
                   alt="Palette"
                   class="mr-2 w-10 h-auto inline-block pb-2"
                 />
-                <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white ">
+                <h1 class="mb-4 text-2xl font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl text-white ">
                   <span>Design</span>
                 </h1>
               </div>
@@ -31,7 +31,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Figma</p>
+                  <p className="mt-2 text-gray-300">Figma</p>
                 </div>
 
                 <div className="text-center">
@@ -40,7 +40,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">WordPress</p>
+                  <p className="mt-2 text-gray-300">WordPress</p>
                 </div>
 
                 <div className="text-center">
@@ -49,7 +49,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Oxygen</p>
+                  <p className="mt-2 text-gray-300">Oxygen</p>
                 </div>
                 <div className="text-center">
                   <img
@@ -57,7 +57,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Elementor</p>
+                  <p className="mt-2 text-gray-300">Elementor</p>
                 </div>
                 <div className="text-center">
                   <img
@@ -65,7 +65,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Avada</p>
+                  <p className="mt-2 text-gray-300">Avada</p>
                 </div>
                 <div className="text-center">
                   <img
@@ -73,7 +73,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Photoshop</p>
+                  <p className="mt-2 text-gray-300">Photoshop</p>
                 </div>
                 <div className="text-center">
                   <img
@@ -81,7 +81,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Canva</p>
+                  <p className="mt-2 text-gray-300">Canva</p>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const TechUsed = () => {
                   alt="Palette"
                   class="mr-2 w-10 h-auto inline-block pb-3"
                 />
-                <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
+                <h1 class="mb-4 text-2xl font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl text-white">
                   <span>Development</span>
                 </h1>
               </div>
@@ -105,7 +105,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">HTML</p>
+                  <p className="mt-2 text-gray-300">HTML</p>
                 </div>
 
                 <div className="text-center ">
@@ -114,7 +114,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">CSS</p>
+                  <p className="mt-2 text-gray-300">CSS</p>
                 </div>
 
                 <div className="text-center">
@@ -123,7 +123,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Javascript</p>
+                  <p className="mt-2 text-gray-300">Javascript</p>
                 </div>
 
                 <div className="text-center">
@@ -132,7 +132,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">React</p>
+                  <p className="mt-2 text-gray-300">React</p>
                 </div>
 
                 <div className="text-center">
@@ -141,7 +141,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Material UI</p>
+                  <p className="mt-2 text-gray-300">Material UI</p>
                 </div>
 
                 <div className="text-center">
@@ -150,7 +150,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Bootstrap</p>
+                  <p className="mt-2 text-gray-300">Bootstrap</p>
                 </div>
 
                 <div className="text-center">
@@ -159,7 +159,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Tailwind CSS</p>
+                  <p className="mt-2 text-gray-300">Tailwind CSS</p>
                 </div>
 
                 <div className="text-center">
@@ -168,7 +168,7 @@ const TechUsed = () => {
                     alt="Logo"
                     className="mx-auto w-12 h-auto"
                   />
-                  <p className="mt-2 text-white">Github</p>
+                  <p className="mt-2 text-gray-300">Github</p>
                 </div>
               </div>
             </div>

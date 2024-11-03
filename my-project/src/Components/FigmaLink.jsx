@@ -13,7 +13,7 @@ const FigmaLink = () => {
       onClick={openLinkInNewTab}
       className="border border-white text-white hover:bg-purple-600 hover:text-white font-raleway font-normal py-3 px-6 rounded-[24px] transition duration-300 ease-in-out md:w-auto w-full"
     >
-      FIGMA PORTFOLIO
+      Figma Portfolio
     </button>
   );
 };

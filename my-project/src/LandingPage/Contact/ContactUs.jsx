@@ -103,42 +103,45 @@ const ContactUs = () => {
                       </a>
                     </div>
 
+
                     <div className="inline-flex text-white">
-                      <a
+                    <a
                         href="https://www.linkedin.com/in/celine-daile-terrado-280a0a25a/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="36"
-                          height="36"
-                          viewBox="0 0 36 36"
-                          fill="none"
-                          className="hover:scale-110 transition duration-200 ease-in-out"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M4 0H32C34.2092 0 36 1.79086 36 4V32C36 34.2092 34.2092 36 32 36H4C1.79086 36 0 34.2092 0 32V4C0 1.79086 1.79086 0 4 0ZM10 30C10.5523 30 11 29.5522 11 29V15C11 14.4478 10.5523 14 10 14H7C6.44772 14 6 14.4478 6 15V29C6 29.5522 6.44772 30 7 30H10ZM8.5 12C6.84314 12 5.5 10.6569 5.5 9C5.5 7.34314 6.84314 6 8.5 6C10.1569 6 11.5 7.34314 11.5 9C11.5 10.6569 10.1569 12 8.5 12ZM29 30C29.5522 30 30 29.5522 30 29V19.8C30.065 16.6216 27.7152 13.909 24.56 13.52C22.354 13.3185 20.2166 14.3488 19 16.2V15C19 14.4478 18.5522 14 18 14H15C14.4478 14 14 14.4478 14 15V29C14 29.5522 14.4478 30 15 30H18C18.5522 30 19 29.5522 19 29V21.5C19 19.8432 20.3432 18.5 22 18.5C23.6568 18.5 25 19.8432 25 21.5V29C25 29.5522 25.4478 30 26 30H29Z"
-                            fill="url(#paint0_linear_7464_1956)"
-                          />
-                          <defs>
-                            <linearGradient
-                              id="paint0_linear_7464_1956"
-                              x1="18"
-                              y1="0"
-                              x2="18"
-                              y2="36"
-                              gradientUnits="userSpaceOnUse"
-                            >
-                              <stop stop-color="#BB96F6" />
-                              <stop offset="1" stop-color="#7D3DE3" />
-                            </linearGradient>
-                          </defs>
-                        </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="36"
+                        height="36"
+                        viewBox="0 0 36 36"
+                        fill="none"
+                        className="hover:scale-110 transition duration-200 ease-in-out"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M4 0H32C34.2092 0 36 1.79086 36 4V32C36 34.2092 34.2092 36 32 36H4C1.79086 36 0 34.2092 0 32V4C0 1.79086 1.79086 0 4 0ZM10 30C10.5523 30 11 29.5522 11 29V15C11 14.4478 10.5523 14 10 14H7C6.44772 14 6 14.4478 6 15V29C6 29.5522 6.44772 30 7 30H10ZM8.5 12C6.84314 12 5.5 10.6569 5.5 9C5.5 7.34314 6.84314 6 8.5 6C10.1569 6 11.5 7.34314 11.5 9C11.5 10.6569 10.1569 12 8.5 12ZM29 30C29.5522 30 30 29.5522 30 29V19.8C30.065 16.6216 27.7152 13.909 24.56 13.52C22.354 13.3185 20.2166 14.3488 19 16.2V15C19 14.4478 18.5522 14 18 14H15C14.4478 14 14 14.4478 14 15V29C14 29.5522 14.4478 30 15 30H18C18.5522 30 19 29.5522 19 29V21.5C19 19.8432 20.3432 18.5 22 18.5C23.6568 18.5 25 19.8432 25 21.5V29C25 29.5522 25.4478 30 26 30H29Z"
+                          fill="url(#paint0_linear_7464_1956)"
+                        />
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_7464_1956"
+                            x1="18"
+                            y1="0"
+                            x2="18"
+                            y2="36"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stop-color="#BB96F6" />
+                            <stop offset="1" stop-color="#7D3DE3" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
                       </a>
                     </div>
+
+                
                   </div>
                 </div>
               </div>

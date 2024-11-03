@@ -74,7 +74,7 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-12">
-                <h1 class="text-2xl  font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
+                <h1 class="text-2xl  font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4 text-white">
                   Web & Mobile Design
                 </h1>
                 <ul>
@@ -96,7 +96,6 @@ const MyServices = () => {
                     </span>
                     Focused on clean, modern aesthetics.
                   </li>
-               
                 </ul>
 
                 <div class="flex-grow"></div>
@@ -133,7 +132,7 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-12">
-                <h1 class="text-2xl  font-semibold tracking-tight leading-none md:text-1xl xl:text-1xl mb-4">
+                <h1 class="text-2xl  font-semibold tracking-tight leading-none md:text-1xl xl:text-1xl mb-4 text-white">
                   WordPress Development
                 </h1>
                 <ul>
@@ -150,7 +149,7 @@ const MyServices = () => {
                     </span>
                     Focused on SEO and site performances.
                   </li>
-               
+
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
@@ -226,11 +225,10 @@ const MyServices = () => {
                 </defs>
               </svg>
               <div class="font-raleway  flex flex-col flex-grow pl-8 pr-8 pt-4 pb-12">
-                <h1 class="text-2xl  font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4">
+                <h1 class="text-2xl  font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl mb-4 text-white">
                   Graphic & Logo Design
                 </h1>
                 <ul>
-                 
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔

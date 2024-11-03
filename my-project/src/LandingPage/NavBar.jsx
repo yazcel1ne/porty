@@ -27,9 +27,9 @@ const NavBar = () => {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               onClick={downloadPdf}
-              className="bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px]"
+              className="bg-gradient-to-r from-purple-500 to-purple-800 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px]"
             >
-              DOWNLOAD CV
+              Download CV
             </button>
 
             <button
