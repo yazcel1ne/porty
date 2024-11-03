@@ -1,14 +1,8 @@
 import React from "react";
 import NavBar from "./NavBar";
-import {
-  BouncingImage,
-  BouncingSmall,
-  BouncingMed,
-  BouncingL,
-} from "../assets/BouncingBall";
+
 import "/src/styles/transitions.css";
-import WavyBg from "./Pages/WavyBg";
-import GradientText from "../assets/GradientText";
+
 import FigmaLink from "../Components/FigmaLink";
 import BehanceLink from "../Components/BehanceLink";
 import Futuristic from "./Pages/Futuristic";

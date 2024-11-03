@@ -19,7 +19,7 @@ function MainLanding() {
   return (
     <>
       <div className=" parallax ">
-        <section className="glassmorphismHero h-full py-12 font-raleway">
+        <section className="glassmorphismHero  h-full py-12 font-raleway">
           <Futuristic />
 
           <Hero />
