@@ -59,7 +59,7 @@ const Hero = () => {
           {/* Adjust the image for different screen sizes */}
           <div className="lg:flex lg:col-span-5 lg:mt-0 lg:justify-center lg:items-center">
             <img
-              src="/Images/pic2.png"
+              src="/Images/pic6.png"
               alt="bg"
               className="hidden lg:block w-full h-auto object-cover lg:max-w-[400px] xl:max-w-[500px]"
             />
