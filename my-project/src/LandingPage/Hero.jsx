@@ -55,11 +55,13 @@ const Hero = () => {
               <FigmaLink />
             </div>
           </div>
-          <div className="hidden lg:flex lg:col-span-5 lg:mt-0 lg:justify-center lg:items-center">
+
+          {/* Adjust the image for different screen sizes */}
+          <div className="lg:flex lg:col-span-5 lg:mt-0 lg:justify-center lg:items-center">
             <img
               src="/Images/pic2.png"
               alt="bg"
-              className="max-w-full h-auto object-cover"
+              className="hidden lg:block w-full h-auto object-cover lg:max-w-[400px] xl:max-w-[500px]"
             />
           </div>
         </div>
