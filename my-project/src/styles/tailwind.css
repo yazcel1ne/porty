@@ -33,7 +33,7 @@
 }
 .relative-container {
   position: relative;
-  z-index: 1;
+ 
 }
 
 .background-image {
@@ -126,3 +126,17 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* styles.css */
+.hide-scrollbar {
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.hide-scrollbar {
+  scrollbar-width: none; /* Hides the scrollbar */
+}

@@ -20,7 +20,6 @@ const ImageModal = ({ src, alt, modalText }) => {
 
   return (
     <div>
-      {/* Hover effect on the image */}
       <div className="image-container">
         <img
           src={src}
@@ -36,35 +35,34 @@ const ImageModal = ({ src, alt, modalText }) => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
           onClick={handleClose}
         >
-          {/* Modal container with responsive sizing */}
           <div className="w-11/12 md:w-3/4 lg:w-2/3 h-11/12 md:h-3/4 rounded-lg overflow-hidden shadow-lg flex flex-col relative">
-            {/* Scrollable content area */}
-            <div className="flex-1 overflow-y-auto p-4">
+            <div className="flex-1 overflow-y-auto p-4 hide-scrollbar">
               <p className="text-white mb-4 text-center">{modalText}</p>
               <img
                 src={src}
                 alt={alt}
-                className="w-full h-auto object-cover" // No animation on the modal image
+                className="w-full h-auto object-cover"
               />
             </div>
-            <button
-              className="absolute top-0 right-0 mt-4 mr-4 text-black"
-              onClick={toggleModal}
-              style={{
-                backgroundColor: "rgba(200, 200, 200, 0.8)", // Light grayish background
-                borderRadius: "50%",
-                width: "40px",
-                height: "40px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                border: "none",
-                cursor: "pointer",
-              }}
-            >
-              <span style={{ fontSize: "20px" }}>×</span>
-            </button>
           </div>
+
+          <button
+            className="absolute top-10 right-10 mt-0 mr-0 text-black"
+            onClick={toggleModal}
+            style={{
+              backgroundColor: "rgba(100, 100, 100, 0.8)",
+              borderRadius: "50%",
+              width: "50px",
+              height: "50px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              border: "none",
+              cursor: "pointer",
+            }}
+          >
+            <span style={{ fontSize: "32px" }}>×</span>
+          </button>
         </div>
       )}
     </div>
