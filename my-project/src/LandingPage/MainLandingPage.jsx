@@ -27,7 +27,7 @@ function MainLanding() {
 
         <section
           id="my-services"
-          className="relative md:h-screen h-full py-12 font-raleway"
+          className="relative    h-full py-12 font-raleway"
         >
           <WavyBg />
 
@@ -40,7 +40,7 @@ function MainLanding() {
         </section>
         <section
           id="my-services"
-          className="relative md:h-screen h-full py-12 font-raleway"
+          className="relative  h-full py-12 font-raleway"
         >
           <WavyBg />
           <TechUsed />

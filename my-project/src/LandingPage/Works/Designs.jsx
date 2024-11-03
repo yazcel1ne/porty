@@ -158,7 +158,7 @@ const Designs = () => {
       </div>
 
       {/* Footer section with links */}
-      <div className="flex justify-center w-full mb-10 mt-10">
+      <div className="flex justify-center w-full pb-16 pt-16">
 
         <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
           <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">

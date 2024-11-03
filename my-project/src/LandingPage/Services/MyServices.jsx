@@ -96,13 +96,7 @@ const MyServices = () => {
                     </span>
                     Focused on clean, modern aesthetics.
                   </li>
-                  <li class="flex items-start text-gray-300  mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    User-friendly interfaces that boost engagement and
-                    satisfaction.
-                  </li>
+               
                 </ul>
 
                 <div class="flex-grow"></div>
@@ -154,16 +148,9 @@ const MyServices = () => {
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
-                    Focused on SEO and performance optimization for fast,
-                    user-friendly sites.
+                    Focused on SEO and site performances.
                   </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Committed to bringing clients' ideas to life with unique
-                    designs.
-                  </li>
+               
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
@@ -243,12 +230,7 @@ const MyServices = () => {
                   Graphic & Logo Design
                 </h1>
                 <ul>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Bring brands to life with captivating and engaging visuals.
-                  </li>
+                 
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
@@ -280,7 +262,7 @@ const MyServices = () => {
         </div>
       </div>
 
-      <div className="flex justify-center w-full">
+      <div className="flex justify-center w-full pb-16">
         <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
           <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
             <BehanceLink />
