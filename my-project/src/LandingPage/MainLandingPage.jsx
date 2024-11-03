@@ -19,7 +19,7 @@ function MainLanding() {
   return (
     <>
       <div className=" parallax ">
-        <section className="glassmorphismHero h-screen py-12 font-raleway">
+        <section className="glassmorphismHero h-full py-12 font-raleway">
           <Futuristic />
 
           <Hero />
@@ -36,6 +36,7 @@ function MainLanding() {
         <section 
          id="my-designs"
         className=" glassmorphismNoRadius h-full  py-12  font-raleway">
+          
           <Designs />
         </section>
         <section
