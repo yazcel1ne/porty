@@ -24,7 +24,7 @@ const MyServices = () => {
         </div>
 
         <div class="relative-container">
-          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:grid-cols-3">
+          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
             <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
               {" "}
               <svg
@@ -261,17 +261,17 @@ const MyServices = () => {
           {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
         </div>
       </div>
+      <div className="flex justify-center items-center w-full pb-16">
+  <div className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
+    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap text-center">
+      <BehanceLink />
+    </div>
+    <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap text-center">
+      <FigmaLink />
+    </div>
+  </div>
+</div>
 
-      <div className="flex justify-center w-full pb-16">
-        <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">
-          <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
-            <BehanceLink />
-          </div>
-          <div className="flex-shrink-0 w-full md:w-auto whitespace-nowrap">
-            <FigmaLink />
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

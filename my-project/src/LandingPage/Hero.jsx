@@ -44,7 +44,7 @@ const Hero = () => {
                 <span className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
-                <p className="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12  dark:text-gray-400 relative z-10 typing-animation">
+                <p className="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
                   Frontend Developer | WordPress Developer
                 </p>
               </div>
