@@ -25,18 +25,17 @@ const Hero = () => {
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-10 sm:mt-20">
           <div className="mr-auto place-self-center lg:col-span-7">
             <div className="max-w-2xl mb-4 animate-left">
-              <span className="text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-white pt-10 sm:pt-20">
-                  Hi!
-                </h1>
-              </span>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-white pt-10 sm:pt-20">
+                Hi!
+              </h1>
+
               <h1
-                className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold mb-4 tracking-tight leading-none text-white"
+                className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold mb-4 tracking-tight leading-none text-white pt-4"
                 style={{ animationDelay: "0.5s" }}
               >
                 I'm Celine
               </h1>
-              <div className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text font-raleway">
+              <div >
                 <span className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
@@ -45,10 +44,11 @@ const Hero = () => {
                 </p>
 
                 <p className="mb-4 mt-4 font-light text-gray-200 lg:mb-12 relative z-10 ">
-                Designing Exciting and Engaging Web Experiences Driven by Passion and a Love for Creativity. Let’s Make Lasting Impressions! </p>               
+                  Designing Exciting and Engaging Web Experiences Driven by
+                  Passion and a Love for Creativity. Let’s Make Lasting
+                  Impressions!{" "}
+                </p>
               </div>
-
-             
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -88,7 +88,6 @@ const Hero = () => {
               style={{ animationDelay: "3s" }}
             />
           </div>
-          
         </div>
       </section>
     </>
