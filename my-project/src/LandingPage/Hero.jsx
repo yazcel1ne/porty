@@ -36,6 +36,12 @@ const Hero = () => {
                 I'm Celine
               </h1>
               <div >
+                   <img
+              src="/Images/TechLogos/Palette.png"
+              alt="Designer Palette"
+              className="hidden lg:block absolute top-[20%] left-[20%] w-10 h-10 bounce-animation"
+              style={{ animationDelay: "0.2s" }}
+            /> 
                 <span className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
