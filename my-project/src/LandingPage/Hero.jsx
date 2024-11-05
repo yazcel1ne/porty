@@ -50,7 +50,7 @@ const Hero = () => {
                 </p>
 
                 <p className="mb-4 mt-4 font-light text-gray-200 lg:mb-12 relative z-10 ">
-                I Design Innovative and Engaging Web Experiences, Driven by Passion and a Love for Creativity. Let’s Create Lasting Impressions!{" "}
+                I Design Innovative and Engaging Web Experiences, Driven by Passion and a Love for Creativity. {" "}
                 </p>
               </div>
             </div>
