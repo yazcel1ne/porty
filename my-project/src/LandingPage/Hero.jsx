@@ -45,9 +45,7 @@ const Hero = () => {
                 </p>
 
                 <p className="mb-4 mt-4 font-light text-gray-200 lg:mb-12 relative z-10 ">
-                Designing Exciting and Engaging Web Experiences,  Driven by Passion and a Love for Creativity!
-                </p>
-               
+                Designing Exciting and Engaging Web Experiences Driven by Passion and a Love for Creativity. Let’s Make Lasting Impressions! </p>               
               </div>
 
              
