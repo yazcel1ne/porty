@@ -12,18 +12,20 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-gradient-custom fixed w-full z-10 top-0 shadow-md">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href=""
-            className="flex items-center space-x-3 rtl:space-x-reverse"
-          >
-            <img
-              src="/Images/logo5.png"
-              alt="Logo"
-              className="self-center text-2xl font-semibold whitespace-nowrap text-white"
-            />
-          </a>
+      <nav className="glassmorphismNav fixed w-full z-10 top-0 shadow-md">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+        <a
+  href=""
+  className="flex items-center space-x-3 rtl:space-x-reverse"
+>
+  <img
+    src="/Images/logo5.png"
+    alt="Logo"
+    className="self-center text-2xl font-semibold whitespace-nowrap text-white"
+    style={{ width: '55px', height: 'auto' }} // Adjust width as needed
+  />
+</a>
+
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               onClick={downloadPdf}

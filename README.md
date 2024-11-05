@@ -9,3 +9,7 @@
 - npm i @react-pdf/renderer
 
 - npm install @formspree/reactrun 
+
+- npm install @lottie
+
+- npm install swiper

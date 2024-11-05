@@ -12,6 +12,7 @@ import Footer from "./Footer.jsx";
 import ContactUs from "./Contact/ContactUs.jsx";
 import WavyBg2 from "./Pages/WavyBg2.jsx";
 import Futuristic from "./Pages/Futuristic.jsx";
+import Say from "./Testimonial/Say.jsx";
 
 function MainLanding() {
   const servicesRef = useRef(null);
@@ -33,10 +34,10 @@ function MainLanding() {
 
           <MyServices />
         </section>
-        <section 
-         id="my-designs"
-        className=" glassmorphismNoRadius h-full  py-12  font-raleway">
-          
+        <section
+          id="my-designs"
+          className=" glassmorphismNoRadius h-full  py-12  font-raleway"
+        >
           <Designs />
         </section>
         <section
@@ -52,6 +53,7 @@ function MainLanding() {
         >
           <CTA />
         </section>
+      
         <section id="contact" className="relative h-full  py-12 font-raleway">
           <ContactUs />
         </section>
