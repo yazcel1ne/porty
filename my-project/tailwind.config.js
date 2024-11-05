@@ -9,7 +9,7 @@ export default {
           
       }),
       fontFamily: {
-        raleway: ["Raleway", "sans-serif"],
+        raleway: ["Poppins", "sans-serif"],
       },
       colors: {
         purpbg: "#2E233B",

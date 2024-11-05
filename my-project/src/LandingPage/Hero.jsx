@@ -25,18 +25,18 @@ const Hero = () => {
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-10 sm:mt-20">
           <div className="mr-auto place-self-center lg:col-span-7">
             <div className="max-w-2xl mb-4 animate-left">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-white pt-10 sm:pt-20">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight leading-none text-white pt-10 sm:pt-20">
                 Hi!
               </h1>
 
               <h1
-                className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold mb-4 tracking-tight leading-none text-white pt-4"
+                className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold mb-4 tracking-tight leading-none text-white pt-4"
                 style={{ animationDelay: "0.5s" }}
               >
                 I'm Celine
               </h1>
               <div >
-                <span className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
+                <span className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
                 <p className="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
