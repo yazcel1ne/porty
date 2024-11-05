@@ -33,9 +33,8 @@ const DesignHeader = () => {
     <div ref={fadeRef} className="fade-up">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 flex justify-end items-end">
         <div className="max-w-3xl text-right">
-          <h1 className=" text-3xl font-extrabold tracking-tight leading-none md:text-4xl md:text-5xl text-white pr-4 border-r-2 border-gradient-a">
-            Design        <GradientText>Portfolio</GradientText>
-
+          <h1 className=" text-3xl font-extrabold tracking-tight leading-none md:text-4xl md:text-5xl text-white pr-4 border-r-4 border-gradient-a">
+            Design <GradientText>Portfolio</GradientText>
           </h1>
           {/* <p className="text-white">
             We recognize the uniqueness of each client and opportunity,

@@ -45,9 +45,11 @@ const Hero = () => {
                 <span className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
+                <div>
                 <p className="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
                   Frontend Developer | WordPress Developer
                 </p>
+                </div>
 
                 <p className="mb-4 mt-4 font-light text-gray-200 lg:mb-12 relative z-10 ">
                 I Design Innovative and Engaging Web Experiences Driven by Passion and a Love for Creativity.

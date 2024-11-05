@@ -16,15 +16,16 @@ const NavBar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <a
   href=""
-  className="flex items-center space-x-3 rtl:space-x-reverse"
+  className="flex items-center space-x-3 rtl:space-x-reverse py-2" // Adjust 'py-4' as needed
 >
   <img
     src="/Images/logo5.png"
     alt="Logo"
     className="self-center text-2xl font-semibold whitespace-nowrap text-white"
-    style={{ width: '55px', height: 'auto' }} // Adjust width as needed
+    style={{ width: "50px", height: "auto" }} // Adjust width as needed
   />
 </a>
+
 
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
@@ -68,7 +69,9 @@ const NavBar = () => {
                 <a
                   href="#"
                   onClick={() => setActiveLink("home")} // Update active link state
-                  className={`block py-2 px-3 ${activeLink === "home" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${
+                    activeLink === "home" ? "text-gradient" : "text-white"
+                  } md:bg-transparent md:p-0`}
                   aria-current="page"
                 >
                   Home
@@ -79,13 +82,16 @@ const NavBar = () => {
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
-                    const servicesSection = document.getElementById("my-services");
+                    const servicesSection =
+                      document.getElementById("my-services");
                     if (servicesSection) {
                       servicesSection.scrollIntoView({ behavior: "smooth" });
                     }
                     setActiveLink("services"); // Update active link state
                   }}
-                  className={`block py-2 px-3 ${activeLink === "services" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${
+                    activeLink === "services" ? "text-gradient" : "text-white"
+                  } md:bg-transparent md:p-0`}
                 >
                   Services
                 </a>
@@ -95,13 +101,16 @@ const NavBar = () => {
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
-                    const designsSection = document.getElementById("my-designs");
+                    const designsSection =
+                      document.getElementById("my-designs");
                     if (designsSection) {
                       designsSection.scrollIntoView({ behavior: "smooth" });
                     }
                     setActiveLink("designs"); // Update active link state
                   }}
-                  className={`block py-2 px-3 ${activeLink === "designs" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${
+                    activeLink === "designs" ? "text-gradient" : "text-white"
+                  } md:bg-transparent md:p-0`}
                 >
                   Designs
                 </a>
@@ -117,7 +126,9 @@ const NavBar = () => {
                     }
                     setActiveLink("contact"); // Update active link state
                   }}
-                  className={`block py-2 px-3 ${activeLink === "contact" ? "text-gradient" : "text-white"} md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${
+                    activeLink === "contact" ? "text-gradient" : "text-white"
+                  } md:bg-transparent md:p-0`}
                 >
                   Contact Me
                 </a>
