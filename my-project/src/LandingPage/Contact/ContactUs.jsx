@@ -8,7 +8,7 @@ import GradientText from "../../assets/GradientText";
 
 const ContactUs = () => {
   return (
-    <div className="">
+    <div className="py-12">
       <div class="max-w-screen-xl pb-8  mx-auto grid gap-8 md:grid-cols-2">
         <div class="max-w-screen-xl   grid grid-cols-1 gap-4 rounded-[24px]"></div>
         <div class="max-w-screen-xl   grid grid-cols-1 gap-4 rounded-[24px]">

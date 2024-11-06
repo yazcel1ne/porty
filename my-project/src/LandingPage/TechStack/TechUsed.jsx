@@ -13,7 +13,7 @@ const TechUsed = () => {
 
         <div class="">
           <div class="max-w-screen-xl px-4 mx-auto grid lg:gap-8 md:gap-4 md:grid-cols-2 pb-24 ">
-            <div>
+            <div className="mb-4">
               <div >
                 <img
                   src="/Images/TechLogos/Palette.png"

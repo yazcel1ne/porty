@@ -13,6 +13,7 @@ import ContactUs from "./Contact/ContactUs.jsx";
 import WavyBg2 from "./Pages/WavyBg2.jsx";
 import Futuristic from "./Pages/Futuristic.jsx";
 import Say from "./Testimonial/Say.jsx";
+import ClientWork from "./ClientAff/ClientWork.jsx";
 
 function MainLanding() {
   const servicesRef = useRef(null);
@@ -53,7 +54,17 @@ function MainLanding() {
         >
           <CTA />
         </section>
-      
+
+        <section id=" my-services" className="  py-12 font-raleway">
+          <ClientWork />
+        </section>
+        <section
+          id=" my-services"
+          className="glassmorphismNoRadius   py-12 font-raleway"
+        >
+          <Say />
+        </section>
+
         <section id="contact" className="relative h-full  py-12 font-raleway">
           <ContactUs />
         </section>

@@ -1,83 +1,115 @@
-import React, { useState } from "react";
+import React, { useRef, useEffect } from "react";
 
 const CardSlider = () => {
-  const cards = [
-    { id: 1, title: "Card 1", content: "Content for Card 1" },
-    { id: 2, title: "Card 2", content: "Content for Card 2" },
-    { id: 3, title: "Card 3", content: "Content for Card 3" },
-    { id: 4, title: "Card 4", content: "Content for Card 4" },
-  ];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const cardsPerPage = 3; // Number of cards to show at once
-
-  const nextCard = () => {
-    if (currentIndex < cards.length - cardsPerPage) {
-      setCurrentIndex(currentIndex + cardsPerPage);
-    }
-  };
-
-  const prevCard = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - cardsPerPage);
-    }
-  };
-
-  const totalSlides = Math.ceil(cards.length / cardsPerPage);
-
   return (
-    <div className="relative font-raleway ">
-      <div class="relative-container">
-        <div class="max-w-screen-xl px-4 my-10  mx-auto grid gap-8 md:grid-cols-1 ">
-				<div className="relative w-full">
-      <div className="overflow-hidden">
-        <div
-          className="flex transition-transform duration-300"
-          style={{ transform: `translateX(-${(currentIndex / cardsPerPage) * 100}%)` }}
-        >
-          {cards.map((card) => (
-            <div key={card.id} className="flex-shrink-0 w-full sm:w-1/3 p-4">
-              <div className="h-full bg-gray-200 rounded-lg p-4">
-                <h2 className="text-xl font-bold">{card.title}</h2>
-                <p>{card.content}</p>
+    <div class="relative">
+      <div className="relative   font-raleway ">
+        <div class="relative-container">
+          <div class="pb-12 ">
+            <p className=" text-center text-2xl font-raleway ml-2 font-bold text-white ">
+              What They Say
+            </p>
+          </div>
+          <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
+            <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+              {" "}
+              <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
+                <div class="text-white text-4xl mb-2">
+                  <span>&#8220;</span>
+                </div>
+
+                <p>
+                  "Celine is a hardworking and dedicated designer. She always
+                  puts in the effort to finish every task with creativity and
+                  care. Truly a pleasure to work with!"
+                </p>
+
+                <h1 class="font-semibold text-white pt-4">
+                  Angeline S.
+                  <p class="font-light">Web Designer, NMS</p>
+                </h1>
+
+                <div class="flex ">
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                </div>
+
+                <div class="flex-grow"></div>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
-      
-      <div className="flex justify-center space-x-2 mt-4">
-        {Array.from({ length: totalSlides }).map((_, index) => (
-          <button
-            key={index}
-            className={`h-2 w-2 rounded-full transition duration-300 ${currentIndex / cardsPerPage === index ? 'bg-blue-500' : 'bg-gray-300'}`}
-            onClick={() => setCurrentIndex(index * cardsPerPage)}
-            aria-label={`Slide ${index + 1}`}
-          />
-        ))}
-      </div>
+            {/* ---------------------- */}
 
-      <div className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2">
-        <button
-          onClick={prevCard}
-          className="bg-gray-700 text-white rounded-full px-4 py-2 disabled:opacity-50"
-          disabled={currentIndex === 0}
-        >
-          Prev
-        </button>
-      </div>
-      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2">
-        <button
-          onClick={nextCard}
-          className="bg-gray-700 text-white rounded-full px-4 py-2 disabled:opacity-50"
-          disabled={currentIndex >= cards.length - cardsPerPage}
-        >
-          Next
-        </button>
-      </div>
-    </div>
+            <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+              {" "}
+              <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
+                <div class="text-white text-4xl mb-2">
+                  <span>&#8220;</span>
+                </div>
+
+                <p>
+                  We've teamed up on several projects, and her creativity always
+                  impress. As a fellow designer, I greatly value her design
+                  skills and dedication to producing high-quality work. I’m
+                  looking forward to collaborating again soon!"
+                </p>
+
+                <h1 class="font-semibold text-white pt-4">
+                  Marjon D.
+                  <p class="font-light">WordPress Developer/Designer</p>
+                </h1>
+
+                <div class="flex ">
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                </div>
+
+                <div class="flex-grow"></div>
+              </div>
+            </div>
+
+            <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+              {" "}
+              <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
+                <div class="text-white text-4xl mb-2">
+                  <span>&#8220;</span>
+                </div>
+
+                <p>
+                  "I’ve known Celine for some time, and she’s been instrumental
+                  in helping me grow my business. Her support, and strategic
+                  insight were key to our success, and I’m incredibly grateful
+                  for all she’s contributed."
+                </p>
+
+                <h1 class="font-semibold text-white pt-4">
+                  Cire G.
+                  <p class="font-light">Founder, G and D Tire Center</p>
+                </h1>
+
+                <div class="flex ">
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                  <span class="text-yellow-500">&#9733;</span>
+                </div>
+
+                <div class="flex-grow"></div>
+              </div>
+            </div>
+            <div className></div>
+          </div>
+
+          {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
         </div>
       </div>
+      <div className="flex justify-center items-center w-full pb-16"></div>
     </div>
   );
 };
