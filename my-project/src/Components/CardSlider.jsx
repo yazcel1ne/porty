@@ -1,15 +1,15 @@
 import React, { useRef, useEffect } from "react";
+import SayHeader from "../assets/SayHeader";
 
 const CardSlider = () => {
   return (
     <div class="relative">
+      <div>
+        <SayHeader />
+      </div>
       <div className="relative   font-raleway ">
         <div class="relative-container">
-          <div class="pb-12 ">
-            <p className=" text-center text-2xl font-raleway ml-2 font-bold text-white ">
-              What They Say
-            </p>
-          </div>
+         
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
             <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
               {" "}
@@ -109,7 +109,6 @@ const CardSlider = () => {
           {/* <img src="/Images/dia.png" alt="bg" class="background-image2" /> */}
         </div>
       </div>
-      <div className="flex justify-center items-center w-full pb-16"></div>
     </div>
   );
 };
