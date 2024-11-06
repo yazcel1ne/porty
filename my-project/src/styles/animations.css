@@ -1,10 +1,21 @@
 
 .typing-animation {
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 0.15em solid orange;
-    animation: typing 3s steps(20, end) infinite, blink 0.5s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid orange;
+  animation: typing 3s steps(20, end) infinite, blink 0.5s step-end infinite;
+}
+
+@media (max-width: 640px) {  /* For smaller screens */
+  .typing-animation {
+    display: block;        /* Ensure it’s visible */
+    white-space: normal;   /* Allow wrapping */
+    animation: none;       /* Disable typing animation */
+    border-right: none;    /* Remove the typing cursor effect */
   }
+}
+
+
   
   @keyframes typing {
     from {

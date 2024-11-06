@@ -35,26 +35,25 @@ const Hero = () => {
               >
                 I'm Celine
               </h1>
-              <div >
-                   <img
-              src="/Images/TechLogos/Palette.png"
-              alt="Designer Palette"
-              className="hidden lg:block absolute top-[20%] left-[20%] w-10 h-10 bounce-animation"
-              style={{ animationDelay: "0.2s" }}
-            /> 
+              <div>
+                <img
+                  src="/Images/TechLogos/Palette.png"
+                  alt="Designer Palette"
+                  className="hidden lg:block absolute top-[20%] left-[20%] w-10 h-10 bounce-animation"
+                  style={{ animationDelay: "0.2s" }}
+                />
                 <span className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
                   Web Designer
                 </span>
                 <div>
-                <p className="text-2xl sm:text-1xl md:text-2xl xl:text-2xl max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
-                  Frontend Developer | WordPress Developer
-                </p>
+                  <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 dark:text-gray-400 relative z-10 typing-animation break-words">
+                    Frontend Developer | WordPress Developer
+                  </p>
                 </div>
 
                 <p className="mb-4 mt-4 font-light text-gray-200 lg:mb-12 relative z-10 ">
-                I Design Innovative and Engaging Web Experiences Driven by Passion and a Love for Creativity.
-
-{" "}
+                  I Design Innovative and Engaging Web Experiences Driven by
+                  Passion and a Love for Creativity.{" "}
                 </p>
               </div>
             </div>
