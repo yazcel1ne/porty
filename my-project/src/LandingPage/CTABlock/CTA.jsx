@@ -15,12 +15,13 @@ const CTA = () => {
                 Transform your digital vision into reality.
               </p>
             </div>
-
-            <p class="mb-8 text-center px-5 text-gray-300 px-11">
+<div className="px-40">
+            <p class="mb-8 text-center px-5 text-gray-300 ">
               I design intuitive interfaces that enhance user engagement and
               satisfaction. I ensure a cohesive visual identity across all
               platforms, delivering stunning designs that elevate your brand.
             </p>
+            </div>
             <ContactButton/>
           </div>
          
