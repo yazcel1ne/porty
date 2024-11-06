@@ -22,7 +22,7 @@ const ContactUs = () => {
             <div class="">
               <div>
                 <p className="text-white pb-3 text-sm md:text-2xl typing-animation">
-                  Contact me and let's create something amazing.
+                  Contact me, Let's create something amazing.
                 </p>
               </div>
 

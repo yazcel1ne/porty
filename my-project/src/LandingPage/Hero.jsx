@@ -46,7 +46,7 @@ const Hero = () => {
                   Web Designer
                 </span>
                 <div>
-                <p className="max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
+                <p className="text-2xl sm:text-1xl md:text-2xl xl:text-2xl max-w-2xl mb-4 mt-4 font-light text-white lg:mb-12 md:text-lg lg:text-xl dark:text-gray-400 relative z-10 typing-animation">
                   Frontend Developer | WordPress Developer
                 </p>
                 </div>
