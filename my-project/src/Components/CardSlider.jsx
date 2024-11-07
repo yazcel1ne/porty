@@ -47,7 +47,7 @@ const CardSlider = () => {
                 </div>
 
                 <p>
-                  We've teamed up on several projects, and her creativity always
+                  "We've teamed up on several projects, and her creativity always
                   impress. As a fellow designer, I greatly value her design
                   skills and dedication to producing high-quality work. I’m
                   looking forward to collaborating again soon!"
@@ -109,7 +109,7 @@ const CardSlider = () => {
                 </div>
 
                 <p>
-                  Celine is exceptionally talented and impressively quick in her
+                  "Celine is exceptionally talented and impressively quick in her
                   work. Her creativity and efficiency made the entire process
                   seamless and enjoyable. I highly recommend her to anyone
                   looking for top-notch design delivered with speed and
