@@ -55,13 +55,15 @@ function MainLanding() {
           <CTA />
         </section>
 
-        <section id=" my-services" className="  py-12 font-raleway">
+        <section id=" my-services" className="   py-12 font-raleway">
+      
           <ClientWork />
         </section>
         <section
           id=" my-services"
           className="glassmorphismNoRadius   py-12 font-raleway"
         >
+           
           <Say />
         </section>
 
