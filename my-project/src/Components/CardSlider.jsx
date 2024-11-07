@@ -86,7 +86,7 @@ const CardSlider = () => {
 
                 <h1 class="font-semibold text-white pt-4">
                   Lisa S.
-                  <p class="font-light">Entrepreneur,PMU</p>
+                  <p class="font-light">Entrepreneur, PMU</p>
                 </h1>
 
                 <div class="flex ">
