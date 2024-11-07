@@ -5,10 +5,9 @@ const Futuristic = () => {
   return (
     <div className="background-container">
       <div className="waves">
-        <div className="wave -one"></div>
-        <div className="wave -two"></div>
+       
       </div>
-     
+      <div className="grid-overlay"></div> {/* Grid overlay for fading effect */}
     </div>
   );
 };

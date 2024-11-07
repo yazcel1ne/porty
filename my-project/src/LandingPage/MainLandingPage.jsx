@@ -63,7 +63,7 @@ function MainLanding() {
           id=" my-services"
           className="glassmorphismNoRadius   py-12 font-raleway"
         >
-           
+        
           <Say />
         </section>
 

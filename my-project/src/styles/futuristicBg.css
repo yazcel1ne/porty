@@ -1,12 +1,39 @@
+.grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-size: 70px 70px; /* Adjust the grid size as needed */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  opacity: 0.3; /* Make it subtle */
+  pointer-events: none; /* Prevent interaction */
+  animation: wave-up 70s infinite linear; /* Adjust wave speed here */
+  overflow: visible; /* Ensure the grid can move out of the container */
+}
 
+/* Keyframes for Continuous Upward Wave Effect */
+@keyframes wave-up {
+  0% {
+    background-position: 0 0; /* Start at the normal position */
+  }
+  100% {
+    background-position: 0 -100%; /* Move grid up infinitely */
+  }
+}
 
+/* Existing Waves Styles */
 .wave {
   position: absolute;
   opacity: 0.2;
   width: 1400px;
   height: 1300px;
   border-radius: 43%;
-  pointer-events: none; /* Prevents interaction issues */
+  pointer-events: none;
 }
 
 @keyframes rotate {
@@ -29,6 +56,6 @@
 }
 
 .bg-transparent {
-  overflow: hidden; /* Hide overflow from the Futuristic animation */
-  position: relative; /* Ensure the section has a defined positioning context */
+  overflow: hidden;
+  position: relative;
 }
