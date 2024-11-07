@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .parallax {
-  background-image: url("/Images/bgnew2.jpg ");
+  background-image: url("/Images/bgnew8.png ");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -93,6 +93,12 @@
 
 .glassmorphismNav {
   background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent background */
+  backdrop-filter: blur(20px); /* Blurring the background */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Darker shadow for more depth */
+}
+
+.glassmorphismDesign {
+  background: rgba(43, 4, 116, 0.5); /* Darker semi-transparent background */
   backdrop-filter: blur(20px); /* Blurring the background */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Darker shadow for more depth */
 }

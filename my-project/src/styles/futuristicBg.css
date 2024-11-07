@@ -10,7 +10,7 @@
       transparent 1px
     ),
     linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  opacity: 0.3; /* Make it subtle */
+  opacity: 0.4; /* Make it subtle */
   pointer-events: none; /* Prevent interaction */
   animation: wave-up 70s infinite linear; /* Adjust wave speed here */
   overflow: visible; /* Ensure the grid can move out of the container */

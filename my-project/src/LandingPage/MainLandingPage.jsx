@@ -14,6 +14,9 @@ import WavyBg2 from "./Pages/WavyBg2.jsx";
 import Futuristic from "./Pages/Futuristic.jsx";
 import Say from "./Testimonial/Say.jsx";
 import ClientWork from "./ClientAff/ClientWork.jsx";
+import lappy2 from "/src/assets/lappy2.json";
+import HeroAnim from "/src/assets/HeroAnim.json";
+import { Player } from "@lottiefiles/react-lottie-player"; // Import the Player component
 
 function MainLanding() {
   const servicesRef = useRef(null);
@@ -21,6 +24,8 @@ function MainLanding() {
   return (
     <>
       <div className=" parallax ">
+      
+
         <section className="glassmorphismHero  h-full py-12 font-raleway">
           <Futuristic />
 
@@ -56,14 +61,12 @@ function MainLanding() {
         </section>
 
         <section id=" my-services" className="   py-12 font-raleway">
-      
           <ClientWork />
         </section>
         <section
           id=" my-services"
           className="glassmorphismNoRadius   py-12 font-raleway"
         >
-        
           <Say />
         </section>
 

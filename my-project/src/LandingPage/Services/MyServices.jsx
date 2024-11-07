@@ -11,6 +11,7 @@ import BehanceLink2 from "../../Components/BehanceLink2";
 import BehanceLink from "../../Components/BehanceLink";
 import Futuristic from "../Pages/Futuristic";
 
+
 const MyServices = () => {
   return (
     <div class="relative">
@@ -23,7 +24,7 @@ const MyServices = () => {
         <div>
           <FadeUpHeader />
         </div>
-
+      
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
             <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">

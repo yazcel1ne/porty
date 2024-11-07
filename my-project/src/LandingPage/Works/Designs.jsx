@@ -81,7 +81,7 @@ const Designs = () => {
               className="flex flex-col relative text-white rounded-[24px] overflow-hidden shadow-2xl" // Changed to shadow-2xl here
             >
               <ImageModal src={image.src} alt={image.alt} />
-              <div className="absolute top-0 left-0 w-full glassmorphism2 p-2 text-center">
+              <div className="absolute top-0 left-0 w-full glassmorphismDesign p-2 text-center">
                 <h2 className="text-md font-semibold">{image.title}</h2>
               </div>
             </div>
