@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .parallax {
-  background-image: url("/Images/bgpart.svg ");
+  background-image: url("/Images/bgnew2.jpg ");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
