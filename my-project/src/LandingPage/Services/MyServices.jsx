@@ -9,6 +9,7 @@ import FigmaLink from "../../Components/FigmaLink";
 import FigmaLink2 from "../../Components/FigmaLink2";
 import BehanceLink2 from "../../Components/BehanceLink2";
 import BehanceLink from "../../Components/BehanceLink";
+import Futuristic from "../Pages/Futuristic";
 
 const MyServices = () => {
   return (
@@ -26,6 +27,9 @@ const MyServices = () => {
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
             <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,6 +109,9 @@ const MyServices = () => {
             {/* ---------------------- */}
 
             <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,6 +172,9 @@ const MyServices = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300 mb-4 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

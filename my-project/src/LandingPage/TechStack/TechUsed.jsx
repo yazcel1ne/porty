@@ -1,12 +1,12 @@
 import React from "react";
 import TechHeader from "../../assets/TechHeader";
 import WavyBg from "../Pages/WavyBg";
+import Futuristic from "../Pages/Futuristic";
 
 const TechUsed = () => {
   return (
     <div className=" relative ">
       <div className="relative font-raleway ">
-
         <div>
           <TechHeader />
         </div>
@@ -14,7 +14,7 @@ const TechUsed = () => {
         <div class="">
           <div class="max-w-screen-xl px-4 mx-auto grid lg:gap-8 md:gap-4 md:grid-cols-2 pb-24 ">
             <div className="mb-4">
-              <div >
+              <div>
                 <img
                   src="/Images/TechLogos/Palette.png"
                   alt="Palette"
@@ -24,7 +24,11 @@ const TechUsed = () => {
                   <span>Design</span>
                 </h1>
               </div>
-              <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 glassmorphism rounded-[24px] shadow-lg">
+
+              <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 glassmorphism rounded-[24px] shadow-lg ">
+                <div className="absolute inset-0">
+                  <Futuristic />
+                </div>
                 <div className="text-center md:pb-16 ">
                   <img
                     src="/Images/TechLogos/figma.svg"
@@ -99,6 +103,9 @@ const TechUsed = () => {
               </div>
 
               <div class="max-w-screen-xl  grid md:grid-cols-4 grid-cols-2 py-16 gap-4 glassmorphism rounded-[24px] shadow-lg">
+              <div className="absolute inset-0">
+                  <Futuristic />
+                </div>
                 <div className="text-center md:pb-16 ">
                   <img
                     src="/Images/TechLogos/html5.svg"

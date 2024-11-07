@@ -1,5 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import SayHeader from "../assets/SayHeader";
+import Futuristic from "../LandingPage/Pages/Futuristic";
+
 
 const CardSlider = () => {
   return (
@@ -11,6 +13,9 @@ const CardSlider = () => {
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
@@ -40,6 +45,9 @@ const CardSlider = () => {
             {/* ---------------------- */}
 
             <div className="glassmorphism flex-col text-gray-300 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
@@ -69,6 +77,9 @@ const CardSlider = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
@@ -102,6 +113,9 @@ const CardSlider = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
@@ -134,6 +148,9 @@ const CardSlider = () => {
             {/* ------------------------------------------------------------- */}
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
@@ -166,6 +183,9 @@ const CardSlider = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
+            <div className="absolute inset-0">
+                  <Futuristic/>
+                </div>
               {" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
