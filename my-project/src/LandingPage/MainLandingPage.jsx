@@ -36,6 +36,7 @@ function MainLanding() {
           id="my-services"
           className="relative    h-full py-12 font-raleway"
         >
+          
           <WavyBg />
 
           <MyServices />
