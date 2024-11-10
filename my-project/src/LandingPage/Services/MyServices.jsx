@@ -90,18 +90,19 @@ const MyServices = () => {
                     </span>
                     Stunning designs that elevate your brand’s presence.
                   </li>
+                  <li class="flex items-start  text-gray-300 mb-2">
+                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                      ✔
+                    </span>
+                    Modern UI/UX designs that blend aesthetics with functionality.
+                  </li>
                   <li class="flex items-start text-gray-300 mb-2">
                     <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                       ✔
                     </span>
                     Consistency and Responsiveness of design.
                   </li>
-                  <li class="flex items-start  text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Focused on clean, modern aesthetics.
-                  </li>
+                 
                 </ul>
 
                 <div class="flex-grow"></div>

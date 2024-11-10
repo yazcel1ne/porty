@@ -18,7 +18,7 @@ body {
 }
 
 .parallax {
-  background-image: url("/Images/bgnew9.png ");
+  background-image: url("/Images/bgpart.svg ");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
