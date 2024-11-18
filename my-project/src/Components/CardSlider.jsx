@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from "react";
 import SayHeader from "../assets/SayHeader";
 import Futuristic from "../LandingPage/Pages/Futuristic";
 
-
 const CardSlider = () => {
   return (
     <div class="relative">
@@ -13,10 +12,9 @@ const CardSlider = () => {
         <div class="relative-container">
           <div class="max-w-screen-xl px-4 mx-auto grid gap-8 md:gap-4 lg:gap-8 md:grid-cols-3">
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
-            <div className="absolute inset-0">
-                  <Futuristic/>
-                </div>
-              {" "}
+              <div className="absolute inset-0">
+                <Futuristic />
+              </div>{" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
                   <span>&#8220;</span>
@@ -45,10 +43,9 @@ const CardSlider = () => {
             {/* ---------------------- */}
 
             <div className="glassmorphism flex-col text-gray-300 md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
-            <div className="absolute inset-0">
-                  <Futuristic/>
-                </div>
-              {" "}
+              <div className="absolute inset-0">
+                <Futuristic />
+              </div>{" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
                   <span>&#8220;</span>
@@ -77,10 +74,9 @@ const CardSlider = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
-            <div className="absolute inset-0">
-                  <Futuristic/>
-                </div>
-              {" "}
+              <div className="absolute inset-0">
+                <Futuristic />
+              </div>{" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
                   <span>&#8220;</span>
@@ -113,26 +109,29 @@ const CardSlider = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
-            <div className="absolute inset-0">
-                  <Futuristic/>
-                </div>
-              {" "}
+              <div className="absolute inset-0">
+                <Futuristic />
+              </div>{" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
                   <span>&#8220;</span>
                 </div>
 
                 <p className="text-gray-300">
-                  "Celine is exceptionally talented and impressively quick in
-                  her work. Her creativity and efficiency made the entire
-                  process seamless and enjoyable. I highly recommend her to
-                  anyone looking for top-notch design delivered with speed and
-                  professionalism.
+                  "I had the pleasure of working with Celine on my website
+                  portfolio, and I couldn't be happier with the results. She
+                  goes above and beyond to ensure that every detail aligns with
+                  your vision. Celine doesn’t just design; she truly listens,
+                  explores multiple options, and takes that extra step to
+                  elevate the user interface. Her dedication to creating a
+                  platform that looks great AND functions seamlessly is
+                  unmatched. It's clear she genuinely cares about delivering
+                  something that captures exactly what you want—and then some!"
                 </p>
 
                 <h1 class="font-semibold text-gray-300 pt-4">
-                  Sam L.
-                  <p class="font-light">Business Owner</p>
+                  Pamela L.
+                  <p class="font-light">Licensed Geologist/Writer</p>
                 </h1>
 
                 <div class="flex ">
@@ -148,21 +147,21 @@ const CardSlider = () => {
             {/* ------------------------------------------------------------- */}
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
-            <div className="absolute inset-0">
-                  <Futuristic/>
-                </div>
-              {" "}
+              <div className="absolute inset-0">
+                <Futuristic />
+              </div>{" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
                   <span>&#8220;</span>
                 </div>
 
                 <p className="text-gray-300">
-                  "I’ve had the pleasure of working with Celine, and I can’t
-                  recommend her enough. She has a great eye for design and
-                  always manages to create websites that are not only beautiful
-                  but also easy to use. Her attention to detail and thoughtful
-                  approach really stand out in every project."
+                  "She has a great eye for design and always manages to create
+                  websites that are not only beautiful but also easy to use. Her
+                  attention to detail and thoughtful approach really stand out
+                  in every project. If you're looking for a designer who
+                  combines creativity with a user-first mindset, Celine is the
+                  one!""
                 </p>
 
                 <h1 class="font-semibold text-gray-300 pt-4">
@@ -183,25 +182,25 @@ const CardSlider = () => {
             </div>
 
             <div className="glassmorphism flex-col text-gray-300  md:flex md:items-left md:justify-left transition-transform duration-300 transform rounded-[24px] shadow-lg py-12">
-            <div className="absolute inset-0">
-                  <Futuristic/>
-                </div>
-              {" "}
+              <div className="absolute inset-0">
+                <Futuristic />
+              </div>{" "}
               <div class="font-raleway flex flex-col flex-grow pl-8 pr-8">
                 <div class="text-white text-6xl mb-2">
                   <span>&#8220;</span>
                 </div>
 
                 <p className="text-gray-300">
-                  "I’ve known Celine for some time, and she’s been instrumental
-                  in helping me grow my business. Her support, and strategic
-                  insight were key to our success, and I’m incredibly grateful
-                  for all she’s contributed."
+                  "Celine is exceptionally talented and impressively quick in
+                  her work. Her creativity and efficiency made the entire
+                  process seamless and enjoyable. I highly recommend her to
+                  anyone looking for top-notch design delivered with speed and
+                  professionalism.
                 </p>
 
                 <h1 class="font-semibold text-gray-300 pt-4">
-                  Cire G.
-                  <p class="font-light">Founder, G and D Tire Center</p>
+                  Katelyn c.
+                  <p class="font-light">Business Owner</p>
                 </h1>
 
                 <div class="flex ">
