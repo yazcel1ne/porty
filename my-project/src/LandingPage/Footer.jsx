@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-center text-white">
-              ©Copyright. All Rights Reserved.
+              © 2024 Celine Terrado Designs. All Rights Reserved.
             </p>
           </div>
         </div>
