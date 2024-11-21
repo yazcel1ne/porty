@@ -5,7 +5,7 @@ const NavBar = () => {
 
   const downloadPdf = () => {
     window.open(
-      "https://drive.google.com/file/d/1s3rTegsEIkH2P7YuZQUwW9jmeznJPkX5/view?usp=sharing",
+      "https://drive.google.com/file/d/1V62w1Kck6QwIgs7v9BwNFLQd-qsN58pS/view?usp=sharing",
       "_blank"
     );
   };
