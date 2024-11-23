@@ -3,15 +3,18 @@ import DesignHeader from "../../assets/DesignHeader";
 import ImageModal from "./DesignComps.jsx/ImageModal";
 import FigmaLink from "../../Components/FigmaLink";
 import BehanceLink from "../../Components/BehanceLink";
+import LiveSite from "../Feature/LiveSite";
 
 const Designs = () => {
   return (
     <div className="relative">
+       <LiveSite/>
       <div>
         <DesignHeader />
       </div>
-
+     
       <div className="relative-container ">
+      
         {/* Grid container for the images */}
         <div className="max-w-screen-xl px-4 mx-auto grid gap-4 md:gap-8 md:grid-cols-3 ">
           {[
@@ -88,7 +91,7 @@ const Designs = () => {
           ))}
         </div>
       </div>
-
+    
       {/* Footer section with links */}
       <div className="flex justify-center items-center w-full pb-16 pt-16">
         <div className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-4 space-y-4 md:space-y-0 w-full max-w-md p-4 md:p-0">

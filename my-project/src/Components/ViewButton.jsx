@@ -9,7 +9,7 @@ const ViewButton = () => {
         to="/ComingSoon" // Replace "/other-page" with the path to your other page
         className="inline-flex items-center border-0 border-white hover:border-purple-400 from-white to-white hover:bg-BB96F6 text-purple-400 hover:text-white font-raleway font-semibold py-2 rounded-[24px] mr-4"
       >
-        LIVE PREVIEW
+        SEE LIVE PREVIEW
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

@@ -142,6 +142,27 @@ body {
   height: 100vh; /* Ensure the section takes full height of the viewport */
 }
 
+.glassmorphismFeat {
+  background: rgba(255, 255, 255, 0.068); /* Darker semi-transparent background */
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.034); /* Darker shadow for more depth */
+
+  border-radius: 16px; /* Optional: Rounded corners for a softer look */
+  overflow: hidden; /* Hide overflow from the Futuristic animation */
+  position: relative; /* Create a positioning context for child elements */
+
+}
+.glassmorphismFeat2 {
+  background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent background */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.034); /* Darker shadow for more depth */
+  overflow: hidden; /* Hide overflow from the Futuristic animation */
+  position: relative; /* Create a positioning context for child elements */
+
+  border-radius: 16px; /* Optional: Rounded corners for a softer look */
+}
+
+
+
 .text-gradient {
   background: linear-gradient(
     to right,
