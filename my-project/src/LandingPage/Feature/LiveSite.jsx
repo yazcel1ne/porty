@@ -28,16 +28,15 @@ const LiveSite = () => {
       link: "https://chargebackhelp.com/",
       tools: ["Figma", "WordPress", "Avada Builder"],
     },
-    // Dummy Content
     {
       title: "My Persontal Portfolio",
-      image: "/Images/DesignImages/myport.jpg", // Use the same image for dummy content
+      image: "/Images/DesignImages/myport.jpg",
       link: "https://celine-terrado.vercel.app/",
       tools: ["Figma", "ReactJS + Vite", "TailwindCSS"],
     },
     {
       title: "PEVRLIRA Portfolio",
-      image: "/Images/DesignImages/pevr.png", // Use the same image for dummy content
+      image: "/Images/DesignImages/pevr.png",
       link: "https://pevrlira.me/",
       tools: ["Figma", "WordPress", "Elementor"],
     },
@@ -71,16 +70,16 @@ const LiveSite = () => {
           </div>
 
           {/* Container for projects */}
-          <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 w-full pl-16 pr-16">
+          <div className="relative grid grid-cols-1 md:grid-cols-3 gap-6 w-full pl-16 pr-16">
             {/* Left Arrow Button (Image) */}
             <button
               onClick={prevSlide}
-              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white p-1 z-10"
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white z-10"
             >
               <img
-                src="/Images/DesignImages/arrowleft.svg" // Path to your left arrow image
+                src="/Images/DesignImages/arrowleft.svg"
                 alt="Previous"
-                className="w-10 h-10" // You can adjust the size here
+                className="w-10 h-10"
               />
             </button>
 
@@ -88,10 +87,13 @@ const LiveSite = () => {
             {projects
               .slice(currentIndex * 3, currentIndex * 3 + 3)
               .map((project, index) => (
-                <a href={project.link} key={index} target="_blank" rel="noopener noreferrer">
-                  <div
-                    className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg transform hover:shadow-xl hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-900 transition-colors"
-                  >
+                <a
+                  href={project.link}
+                  key={index}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg hover:border-2 hover:border-purple-600">
                     <Futuristic />
                     <img
                       src={project.image}
@@ -103,7 +105,10 @@ const LiveSite = () => {
                     </h2>
                     <ul>
                       {project.tools.map((tool, index) => (
-                        <li key={index} className="flex items-start text-gray-300 mb-2">
+                        <li
+                          key={index}
+                          className="flex items-start text-gray-300 mb-2"
+                        >
                           <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
                             ✔
                           </span>
@@ -118,12 +123,12 @@ const LiveSite = () => {
             {/* Right Arrow Button (Image) */}
             <button
               onClick={nextSlide}
-              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white p-1 z-10"
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white z-10"
             >
               <img
-                src="/Images/DesignImages/arrowright.svg" // Path to your right arrow image
+                src="/Images/DesignImages/arrowright.svg"
                 alt="Next"
-                className="w-10 h-10" // You can adjust the size here
+                className="w-10 h-10"
               />
             </button>
           </div>
