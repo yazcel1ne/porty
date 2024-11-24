@@ -23,6 +23,12 @@ const LiveSite = () => {
       tools: ["Figma", "WordPress", "Elementor Pro"],
     },
     {
+      title: "SMount",
+      image: "/Images/DesignImages/sfc.png",
+      link: "https://shiftcam.webflow.io/",
+      tools: ["Figma", "Webflow", "UI/UX Redesign"],
+    },
+    {
       title: "ChargebackHelp",
       image: "/Images/DesignImages/CBH.png",
       link: "https://chargebackhelp.com/",
