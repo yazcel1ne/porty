@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ContactButton from "../../Components/ContactButton";
 import GradientText from "../../assets/GradientText";
 import { BouncingImage } from "../../assets/BouncingBall";
@@ -7,136 +7,130 @@ import Futuristic from "../Pages/Futuristic";
 import ViewButton from "../../Components/ViewButton";
 
 const LiveSite = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const projects = [
+    {
+      title: "Happy Wally Redesign",
+      image: "/Images/hwally.png",
+      link: "https://h-wally-redesign.vercel.app/",
+      tools: ["Figma", "ReactJS + Vite", "Material UI"],
+    },
+    {
+      title: "DisputeHelp",
+      image: "/Images/DesignImages/DH.png",
+      link: "https://disputehelp.com/",
+      tools: ["Figma", "WordPress", "Elementor Pro"],
+    },
+    {
+      title: "ChargebackHelp",
+      image: "/Images/DesignImages/CBH.png",
+      link: "https://chargebackhelp.com/",
+      tools: ["Figma", "WordPress", "Avada Builder"],
+    },
+    // Dummy Content
+    {
+      title: "My Persontal Portfolio",
+      image: "/Images/DesignImages/myport.jpg", // Use the same image for dummy content
+      link: "https://celine-terrado.vercel.app/",
+      tools: ["Figma", "ReactJS + Vite", "TailwindCSS"],
+    },
+    {
+      title: "PEVRLIRA Portfolio",
+      image: "/Images/DesignImages/pevr.png", // Use the same image for dummy content
+      link: "https://pevrlira.me/",
+      tools: ["Figma", "WordPress", "Elementor"],
+    },
+  ];
+
+  // Calculate total pages for the project
+  const totalPages = Math.ceil(projects.length / 3);
+
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % totalPages);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + totalPages) % totalPages
+    );
+  };
+
   return (
-    <div className="relative font-raleway ">
-      <div class="relative-container">
-        <div class="max-w-screen-xl px-4 my-10  mx-auto grid gap-8 md:grid-cols-1 ">
-          <div class="glassmorphismFeat p-8 pb-8 flex flex-col justify-center  text-white  md:flex md:items-left md:justify-left rounded-[24px] shadow-lg ">
-            <div class="pb-8">
-              <p className=" text-center pb-8 text-3xl font-raleway ml-2 font-bold bg-gradient-to-r from-purple-700 via-pink-500 to-blue-400 text-transparent bg-clip-text animate-gradient">
-                Featured Sites I Developed
-              </p>
-            </div>
+    <div className="relative font-raleway">
+      <div className="relative-container">
+        <div className="max-w-screen-xl px-4 my-10 mx-auto grid gap-8 md:grid-cols-1">
+          <div>
+            <p className="text-3xl font-raleway font-bold text-gray-300">
+              Featured Showcase
+            </p>
+            <p className="text-gray-300">
+              Sites I Developed Using a Variety of Platforms and Front-End Tools. 🎨{" "}
+              <span className="font-bold">Feel Free to Take a Look!</span> 😊
+            </p>
+          </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-              <div class="glassmorphismFeat2 font-raleway flex flex-col flex-grow pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg transform transition-transform hover:translate-x-[-5px] hover:translate-y-[-5px] hover:shadow-xl">
-                <Futuristic />
-                <img
-                  src="/Images/hwally.png"
-                  alt="Project Thumbnail"
-                  class="w-full h-48 object-cover rounded-xl mb-4"
-                />
+          {/* Container for projects */}
+          <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 w-full pl-16 pr-16">
+            {/* Left Arrow Button */}
+            <button
+              onClick={prevSlide}
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-purple-600 rounded-lg p-2 z-10"
+            >
+              ◀
+            </button>
 
-                <h2 class="text-md font-semibold">Happy Wally Redesign</h2>
-                <p class="pt-2 pb-2">Made using:</p>
-                <ul>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Figma
-                  </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    ReactJS + Vite
-                  </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Material UI
-                  </li>
-                </ul>
-
-                <a href="https://h-wally-redesign.vercel.app/" target="_blank">
-                  <button className=" bg-gradient-to-r from-purple-500 to-purple-800 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] md:w-auto w-full">
-                    Live Preview
-                  </button>
+            {/* Projects */}
+            {projects
+              .slice(currentIndex * 3, currentIndex * 3 + 3)
+              .map((project, index) => (
+                <a href={project.link} key={index} target="_blank" rel="noopener noreferrer">
+                  <div
+                    className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg transform hover:shadow-xl hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-900 transition-colors"
+                  >
+                    <Futuristic />
+                    <img
+                      src={project.image}
+                      alt="Project Thumbnail"
+                      className="w-full h-48 object-cover rounded-xl"
+                    />
+                    <h2 className="text-md font-semibold text-gray-300 pt-4 pb-4">
+                      {project.title}
+                    </h2>
+                    <ul>
+                      {project.tools.map((tool, index) => (
+                        <li key={index} className="flex items-start text-gray-300 mb-2">
+                          <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                            ✔
+                          </span>
+                          {tool}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </a>
-              </div>
+              ))}
 
-              {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+            {/* Right Arrow Button */}
+            <button
+              onClick={nextSlide}
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-purple-600 rounded-lg  p-2 z-10"
+            >
+              ►
+            </button>
+          </div>
 
-              <div class="glassmorphismFeat2 font-raleway flex flex-col flex-grow pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg transform transition-transform hover:translate-x-[-5px] hover:translate-y-[-5px] hover:shadow-xl">
-                <Futuristic />
-                <img
-                  src="/Images/DesignImages/DH.png"
-                  alt="Project Thumbnail"
-                  class="w-full h-48 object-cover rounded-xl mb-4"
-                />
-
-                <h2 class="text-md font-semibold">DisputeHelp</h2>
-                <p class="pt-2 pb-2">Made using:</p>
-                <ul>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Figma
-                  </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    WordPress
-                  </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Elementor Pro
-                  </li>
-                </ul>
-
-                <a href="https://disputehelp.com/" target="_blank">
-                  <button className=" bg-gradient-to-r from-purple-500 to-purple-800 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] md:w-auto w-full">
-                    Live Preview
-                  </button>
-                </a>
-              </div>
-
-              {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
-
-              <div class="glassmorphismFeat2 font-raleway flex flex-col flex-grow pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg transform transition-transform hover:translate-x-[-5px] hover:translate-y-[-5px] hover:shadow-xl">
-                <Futuristic />
-                <img
-                  src="/Images/DesignImages/CBH.png"
-                  alt="Project Thumbnail"
-                  class="w-full h-48 object-cover rounded-xl mb-4"
-                />
-
-                <h2 class="text-md font-semibold">ChargebackHelp</h2>
-                <p class="pt-2 pb-2">Made using:</p>
-                <ul>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Figma
-                  </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    WordPress
-                  </li>
-                  <li class="flex items-start text-gray-300 mb-2">
-                    <span class="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                      ✔
-                    </span>
-                    Avada Builder
-                  </li>
-                </ul>
-
-                <a href="https://chargebackhelp.com/" target="_blank">
-                  <button className=" bg-gradient-to-r from-purple-500 to-purple-800 hover:from-purple-600 hover:to-purple-800 text-white font-raleway font-normal py-3 px-6 rounded-[24px] md:w-auto w-full">
-                    Live Preview
-                  </button>
-                </a>
-              </div>
-            </div>
+          {/* Dots Indicator */}
+          <div className="flex justify-center gap-4 py-4">
+            {Array.from({ length: totalPages }).map((_, index) => (
+              <button
+                key={index}
+                className={`h-2 w-2 rounded-full ${
+                  index === currentIndex ? "bg-purple-600" : "bg-gray-400"
+                }`}
+                onClick={() => setCurrentIndex(index)}
+              />
+            ))}
           </div>
         </div>
       </div>

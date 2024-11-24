@@ -36,10 +36,9 @@ const DesignHeader = () => {
           <h1 className=" text-3xl font-extrabold tracking-tight leading-none md:text-4xl md:text-5xl text-white pr-4 border-r-4 border-gradient-a">
             Design <GradientText>Portfolio</GradientText>
           </h1>
-          {/* <p className="text-white">
-            We recognize the uniqueness of each client and opportunity,
-            guaranteeing a response to every query within one business day
-          </p> */}
+         <p className="text-white pt-4">
+         Here are some of my designs created in Figma. 👉 <span className="font-bold">Feel free to explore! 👀</span>
+          </p>
         </div>
       </div>
     </div>
