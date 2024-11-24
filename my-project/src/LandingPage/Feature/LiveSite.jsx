@@ -85,7 +85,7 @@ const LiveSite = () => {
                 src="/Images/DesignImages/arrowleft.svg"
                 alt="Previous"
                 className="w-10 h-10 transform transition-transform duration-200 hover:scale-110"
-                />
+              />
             </button>
 
             {/* Projects */}
@@ -98,32 +98,30 @@ const LiveSite = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-<div className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg bg-gray-800 hover:bg-gradient-to-r hover:from-[#050505] hover:to-[#3d1768] transition-transform transform hover:-translate-y-2 duration-300">
-  <Futuristic />
-  <img
-    src={project.image}
-    alt="Project Thumbnail"
-    className="w-full h-48 object-cover rounded-xl"
-  />
-  <h2 className="text-md font-semibold text-gray-300 pt-4 pb-4">
-    {project.title}
-  </h2>
-  <ul>
-    {project.tools.map((tool, index) => (
-      <li
-        key={index}
-        className="flex items-start text-gray-300 mb-2"
-      >
-        <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-          ✔
-        </span>
-        {tool}
-      </li>
-    ))}
-  </ul>
-</div>
-
-
+                  <div className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg bg-gray-800 hover:bg-gradient-to-r hover:from-[#050505] hover:to-[#251538] transition-transform transform hover:-translate-y-2 duration-300">
+                    <Futuristic />
+                    <img
+                      src={project.image}
+                      alt="Project Thumbnail"
+                      className="w-full h-48 object-cover rounded-xl"
+                    />
+                    <h2 className="text-md font-semibold text-gray-300 pt-4 pb-4">
+                      {project.title}
+                    </h2>
+                    <ul>
+                      {project.tools.map((tool, index) => (
+                        <li
+                          key={index}
+                          className="flex items-start text-gray-300 mb-2"
+                        >
+                          <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+                            ✔
+                          </span>
+                          {tool}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </a>
               ))}
 
@@ -136,7 +134,7 @@ const LiveSite = () => {
                 src="/Images/DesignImages/arrowright.svg"
                 alt="Next"
                 className="w-10 h-10 transform transition-transform duration-200 hover:scale-110"
-                />
+              />
             </button>
           </div>
 
