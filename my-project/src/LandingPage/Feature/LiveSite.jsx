@@ -72,12 +72,16 @@ const LiveSite = () => {
 
           {/* Container for projects */}
           <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 w-full pl-16 pr-16">
-            {/* Left Arrow Button */}
+            {/* Left Arrow Button (Image) */}
             <button
               onClick={prevSlide}
-              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-purple-600 rounded-lg p-2 z-10"
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white p-1 z-10"
             >
-              ◀
+              <img
+                src="/Images/DesignImages/arrowleft.svg" // Path to your left arrow image
+                alt="Previous"
+                className="w-10 h-10" // You can adjust the size here
+              />
             </button>
 
             {/* Projects */}
@@ -111,12 +115,16 @@ const LiveSite = () => {
                 </a>
               ))}
 
-            {/* Right Arrow Button */}
+            {/* Right Arrow Button (Image) */}
             <button
               onClick={nextSlide}
-              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-purple-600 rounded-lg  p-2 z-10"
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white p-1 z-10"
             >
-              ►
+              <img
+                src="/Images/DesignImages/arrowright.svg" // Path to your right arrow image
+                alt="Next"
+                className="w-10 h-10" // You can adjust the size here
+              />
             </button>
           </div>
 

@@ -72,21 +72,7 @@ const Hero = () => {
               className="hidden lg:block w-full h-auto object-cover lg:max-w-[400px] xl:max-w-[500px] flip-in-animation"
             />
 
-            {/* Add bouncing designer palette */}
-            {/* <img
-              src="/Images/TechLogos/Palette.png"
-              alt="Designer Palette"
-              className="hidden lg:block absolute top-[75%] left-[10%] w-16 h-16 bounce-animation"
-              style={{ animationDelay: "0.2s" }}
-            /> */}
-
-            {/* Add bouncing keyboard */}
-            {/* <img
-              src="/Images/TechLogos/Keyboard.png"
-              alt="Keyboard"
-              className="hidden lg:block absolute top-[90%] left-[30%] w-18 h-18 bounce-animation"
-              style={{ animationDelay: "0.4s" }}
-            /> */}
+      
             <Player
               autoplay
               loop
