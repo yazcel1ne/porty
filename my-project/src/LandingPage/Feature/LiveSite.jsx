@@ -79,7 +79,7 @@ const LiveSite = () => {
             {/* Left Arrow Button (Image) */}
             <button
               onClick={prevSlide}
-              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white z-10"
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white "
             >
               <img
                 src="/Images/DesignImages/arrowleft.svg"
@@ -130,7 +130,7 @@ const LiveSite = () => {
             {/* Right Arrow Button (Image) */}
             <button
               onClick={nextSlide}
-              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white z-10"
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white "
             >
               <img
                 src="/Images/DesignImages/arrowright.svg"
