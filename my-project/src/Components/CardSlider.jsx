@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import SayHeader from "../assets/SayHeader";
 import Futuristic from "../LandingPage/Pages/Futuristic";
 
 const CardSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
+  const [isPaused, setIsPaused] = useState(true); // Initially paused until section is in view
+  const sliderRef = useRef(null); // Reference to the slider section
 
   const testimonials = [
     {
@@ -31,7 +32,6 @@ const CardSlider = () => {
       name: "Lisa S.",
       position: "Entrepreneur, PMU",
     },
-   
     {
       quote:
         "She has a great eye for design and always manages to create websites that are not only beautiful but also easy to use. Her attention to detail and thoughtful approach really stand out in every project. If you're looking for a designer who combines creativity with a user-first mindset, Celine is the one!",
@@ -40,7 +40,7 @@ const CardSlider = () => {
     },
     {
       quote:
-        "Celine is exceptionally talented and impressively quick in her work. Her creativity and efficiency made the entire process seamless and enjoyable. I highly recommend her to anyone looking for top-notch design delivered with speed and  professionalism.",
+        "Celine is exceptionally talented and impressively quick in her work. Her creativity and efficiency made the entire process seamless and enjoyable. I highly recommend her to anyone looking for top-notch design delivered with speed and professionalism.",
       name: "Katelyn C.",
       position: "Business Owner",
     },
@@ -53,15 +53,40 @@ const CardSlider = () => {
   };
 
   useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setIsPaused(false); // Activate slider when section is in view
+        } else {
+          setIsPaused(true); // Pause slider when section is out of view
+        }
+      },
+      { threshold: 0.2 } // Trigger when 50% of the section is visible
+    );
+
+    if (sliderRef.current) {
+      observer.observe(sliderRef.current); // Start observing the slider section
+    }
+
+    return () => {
+      if (sliderRef.current) {
+        observer.unobserve(sliderRef.current); // Cleanup observer on component unmount
+      }
+    };
+  }, []);
+
+  useEffect(() => {
     if (!isPaused) {
-      const interval = setInterval(nextSlide, 5000);
-      return () => clearInterval(interval);
+      const interval = setInterval(nextSlide, 3000);
+      return () => clearInterval(interval); // Cleanup interval on component unmount or pause
     }
   }, [isPaused]);
 
   return (
     <div
       className="relative font-raleway"
+      ref={sliderRef} // Assign the ref to the slider section
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
