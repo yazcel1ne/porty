@@ -50,9 +50,7 @@ const LiveSite = () => {
   };
 
   const prevSlide = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + totalPages) % totalPages
-    );
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + totalPages) % totalPages);
   };
 
   return (
@@ -64,7 +62,8 @@ const LiveSite = () => {
               Featured Showcase
             </p>
             <p className="text-gray-300 text-center pt-4 pb-8">
-              Sites I Developed Using a Variety of Platforms and Front-End Tools. 🎨{" "}
+              Sites I Developed Using a Variety of Platforms and Front-End
+              Tools. 🎨{" "}
               <span className="font-bold">Feel Free to Take a Look!</span> 😊
             </p>
           </div>
@@ -93,30 +92,32 @@ const LiveSite = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg hover:border-2 hover:border-purple-600">
-                    <Futuristic />
-                    <img
-                      src={project.image}
-                      alt="Project Thumbnail"
-                      className="w-full h-48 object-cover rounded-xl"
-                    />
-                    <h2 className="text-md font-semibold text-gray-300 pt-4 pb-4">
-                      {project.title}
-                    </h2>
-                    <ul>
-                      {project.tools.map((tool, index) => (
-                        <li
-                          key={index}
-                          className="flex items-start text-gray-300 mb-2"
-                        >
-                          <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
-                            ✔
-                          </span>
-                          {tool}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+<div className="glassmorphismFeat2 font-raleway flex flex-col pl-8 pr-8 pt-8 pb-8 rounded-lg shadow-lg bg-gray-800 hover:bg-gradient-to-r hover:from-[#050505] hover:to-[#3d1768] transition-transform transform hover:-translate-y-2 duration-300">
+  <Futuristic />
+  <img
+    src={project.image}
+    alt="Project Thumbnail"
+    className="w-full h-48 object-cover rounded-xl"
+  />
+  <h2 className="text-md font-semibold text-gray-300 pt-4 pb-4">
+    {project.title}
+  </h2>
+  <ul>
+    {project.tools.map((tool, index) => (
+      <li
+        key={index}
+        className="flex items-start text-gray-300 mb-2"
+      >
+        <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-white-500 mr-2">
+          ✔
+        </span>
+        {tool}
+      </li>
+    ))}
+  </ul>
+</div>
+
+
                 </a>
               ))}
 
