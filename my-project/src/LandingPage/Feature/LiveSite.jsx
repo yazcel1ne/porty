@@ -61,10 +61,10 @@ const LiveSite = () => {
       <div className="relative-container">
         <div className="max-w-screen-xl px-4 my-10 mx-auto grid gap-8 md:grid-cols-1">
           <div>
-            <p className="text-3xl font-raleway font-bold text-gray-300">
+            <p className="text-3xl font-raleway font-bold text-gray-300 text-center">
               Featured Showcase
             </p>
-            <p className="text-gray-300">
+            <p className="text-gray-300 text-center pt-4 pb-8">
               Sites I Developed Using a Variety of Platforms and Front-End Tools. 🎨{" "}
               <span className="font-bold">Feel Free to Take a Look!</span> 😊
             </p>
