@@ -84,8 +84,8 @@ const LiveSite = () => {
               <img
                 src="/Images/DesignImages/arrowleft.svg"
                 alt="Previous"
-                className="w-10 h-10"
-              />
+                className="w-10 h-10 transform transition-transform duration-200 hover:scale-110"
+                />
             </button>
 
             {/* Projects */}
@@ -135,8 +135,8 @@ const LiveSite = () => {
               <img
                 src="/Images/DesignImages/arrowright.svg"
                 alt="Next"
-                className="w-10 h-10"
-              />
+                className="w-10 h-10 transform transition-transform duration-200 hover:scale-110"
+                />
             </button>
           </div>
 
