@@ -3,6 +3,8 @@ import Futuristic from "../Pages/Futuristic";
 
 const LiveSite = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
 
   const projects = [
     {
@@ -56,8 +58,34 @@ const LiveSite = () => {
     );
   };
 
+  const handleTouchStart = (e) => {
+    setTouchStart(e.touches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    setTouchEnd(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStart && touchEnd) {
+      const distance = touchStart - touchEnd;
+      if (distance > 50) {
+        nextSlide();
+      } else if (distance < -50) {
+        prevSlide();
+      }
+    }
+    setTouchStart(null);
+    setTouchEnd(null);
+  };
+
   return (
-    <div className="relative font-raleway">
+    <div
+      className="relative font-raleway"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
       <div className="max-w-screen-xl px-4 my-10 mx-auto">
         <div>
           <p className="text-3xl font-bold text-gray-300 text-center">
@@ -71,10 +99,10 @@ const LiveSite = () => {
 
         {/* Navigation Buttons */}
         <div className="flex justify-between items-center ">
-          {/* Left Arrow Button */}
+          {/* Left Arrow Button (visible on large screens only) */}
           <button
             onClick={prevSlide}
-            className="text-white px-4 py-2 focus:outline-none"
+            className="text-white px-4 py-2 focus:outline-none hidden sm:block"
           >
             <img
               src="/Images/DesignImages/arrowleft.svg"
@@ -84,7 +112,7 @@ const LiveSite = () => {
           </button>
 
           {/* Slider Container */}
-          <div className="relative overflow-hidden w-full py-8 ">
+          <div className="relative overflow-hidden w-full py-8">
             <div
               className="flex transition-transform duration-700 ease-in-out"
               style={{
@@ -94,7 +122,7 @@ const LiveSite = () => {
               {Array.from({ length: totalPages }).map((_, pageIndex) => (
                 <div
                   key={pageIndex}
-                  className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full flex-shrink-0  p-2" 
+                  className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full flex-shrink-0 p-2"
                 >
                   {projects
                     .slice(
@@ -108,9 +136,8 @@ const LiveSite = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                         
-                        <div className="glassmorphismFeat2 flex flex-col p-8 rounded-lg shadow-lg bg-gray-800 hover:bg-gradient-to-r hover:from-[#050505] hover:to-[#251538] transition-transform transform hover:-translate-y-2 duration-300 ">
-                        <Futuristic />
+                        <div className="glassmorphismFeat2 flex flex-col p-8 rounded-lg shadow-lg bg-gray-800 hover:bg-gradient-to-r hover:from-[#050505] hover:to-[#251538] transition-transform transform hover:-translate-y-2 duration-300">
+                          <Futuristic />
                           <img
                             src={project.image}
                             alt="Project Thumbnail"
@@ -140,10 +167,10 @@ const LiveSite = () => {
             </div>
           </div>
 
-          {/* Right Arrow Button */}
+          {/* Right Arrow Button (visible on large screens only) */}
           <button
             onClick={nextSlide}
-            className="text-white px-4 py-2 focus:outline-none"
+            className="text-white px-4 py-2 focus:outline-none hidden sm:block"
           >
             <img
               src="/Images/DesignImages/arrowright.svg"
