@@ -20,6 +20,12 @@ const LiveSite = () => {
       tools: ["Figma", "WordPress", "Elementor Pro"],
     },
     {
+      title: "Hotel Astoria",
+      image: "/Images/DesignImages/Astoria.png",
+      link: "https://hotel-astoria.vercel.app/",
+      tools: ["Figma", "ReactJS + Vite", "Material UI"],
+    },
+    {
       title: "SMount",
       image: "/Images/DesignImages/sfc.png",
       link: "https://shiftcam.webflow.io/",
