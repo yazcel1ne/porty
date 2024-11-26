@@ -19,10 +19,10 @@ const Hero = () => {
             <div className="flex items-center justify-center ">
               <div className="max-w-2xl mb-4 animate-left">
                 {/* Headings */}
-                <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-snug text-white ">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-snug text-white ">
                   Hi!
                 </h1>
-                <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-snug text-white pt-4 pb-4">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-snug text-white pt-4 pb-4">
                   I'm Celine
                 </h1>
                 <div>
